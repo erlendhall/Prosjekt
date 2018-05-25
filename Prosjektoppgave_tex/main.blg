@@ -1,0 +1,18 @@
+[0] Config.pm:327> INFO - This is Biber 2.3
+[1] Config.pm:330> INFO - Logfile is 'main.blg'
+[38] biber-MSWIN:284> INFO - === 
+[111] Biber.pm:346> INFO - Reading 'main.bcf'
+[221] Biber.pm:689> INFO - Found 12 citekeys in bib section 0
+[228] Biber.pm:3066> INFO - Processing section 0
+[250] Biber.pm:3206> INFO - Looking for bibtex format file 'Main/references.bib' for section 0
+[271] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
+[280] bibtex.pm:923> INFO - Found BibTeX data source 'Main/references.bib'
+[297] Utils.pm:147> WARN - I didn't find a database entry for 'bibid' (section 0)
+[299] Utils.pm:147> WARN - I didn't find a database entry for '2_CV' (section 0)
+[385] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[387] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[388] Biber.pm:2943> INFO - Sorting list 'none' of type 'entry' with scheme 'none' and locale 'en-US'
+[394] Biber.pm:2947> INFO - No sort tailoring available for locale 'en-US'
+[408] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[426] bbl.pm:596> INFO - Output to main.bbl
+[434] Biber.pm:107> INFO - WARNINGS: 2

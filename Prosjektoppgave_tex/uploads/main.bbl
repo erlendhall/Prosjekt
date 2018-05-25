@@ -1,0 +1,233 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{gandrud}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d8f9de362cb89cb9e3525578e7b57782}{%
+           family={Gandrud},
+           familyi={G\bibinitperiod},
+           given={Knut\bibnamedelima Bjarne},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UiO}%
+      }
+      \strng{namehash}{d8f9de362cb89cb9e3525578e7b57782}
+      \strng{fullhash}{d8f9de362cb89cb9e3525578e7b57782}
+      \strng{bibnamehash}{d8f9de362cb89cb9e3525578e7b57782}
+      \strng{authorbibnamehash}{d8f9de362cb89cb9e3525578e7b57782}
+      \strng{authornamehash}{d8f9de362cb89cb9e3525578e7b57782}
+      \strng{authorfullhash}{d8f9de362cb89cb9e3525578e7b57782}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thin film materials for Li-ion batteries made by atomic layer deposition}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \field{pages}{114}
+      \range{pages}{1}
+      \verb{file}
+      \verb Gandrud - As once promised, this thesis is dedicated to my F.pdf:C\:\\Users\\erlehall\\Zotero\\storage\\SL6YLX8F\\Gandrud - As once promised, this thesis is dedicated to my F.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{costcath}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1482f13a47428d0f3bde9ea2a7995da2}{%
+           family={Zaghib},
+           familyi={Z\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=79bbd5d02911287b1ebeed306e589f08}{%
+           family={Mauger},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=787949217157c549532fe522a75508ef}{%
+           family={Julien},
+           familyi={J\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e774820c6908d4281294571a18f233c}
+      \strng{fullhash}{7e774820c6908d4281294571a18f233c}
+      \strng{bibnamehash}{7e774820c6908d4281294571a18f233c}
+      \strng{authorbibnamehash}{7e774820c6908d4281294571a18f233c}
+      \strng{authornamehash}{7e774820c6908d4281294571a18f233c}
+      \strng{authorfullhash}{7e774820c6908d4281294571a18f233c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present the progress on the physical chemistry of the olivine compounds since the pioneering work of Prof. John Goodenough. This progress has allowed {LiFePO} 4 to become the active cathode element of a new generation of Li-ion batteries that makes a breakthrough in the technology of the energy storage and electric transportation. This achievement is the fruit of about a decade of intensive research in the electrochemical community during which chemists, electrochemists, and physicists added there efforts to understand the properties of the material, to overcome the obstacles that were met on the way, and finally to reach the state of the art that allows its commercial use for worldwide applications in the industry today. These obstacles involved carbon coating, purification, control of the surface, the progressive decrease of the size of the particles down to nanoscale, and comprehensive investigation of surface effects. Nevertheless, heterogeneity in the quality of the product available on the market is damaging and may even be an obstacle to the development of new demanding technologies such as electric transportation. Emphasis is placed on the quality control that is needed to guarantee the reliability and the optimum electrochemical performance of this material as the active cathode element of Li-ion batteries. The route to increase the performance of Li-ion batteries with the other members of the family is also discussed. Since Prof. John Goodenough not only initiated the work but also played a major role in the research and development on these materials through the years, the present review is dedicated to him.}
+      \field{issn}{1432-8488}
+      \field{journaltitle}{Journal of Solid State Electrochemistry}
+      \field{number}{3}
+      \field{title}{Overview of olivines in lithium batteries for green transportation and energy storage}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{835\bibrangedash 845}
+      \range{pages}{11}
+      \keyw{{HEV},{PEV},{EV},energy storage,Li-ion batteries,Olivine}
+    \endentry
+    \entry{1_rev_liion}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6761049c65b973ddd81ece00379c2fc8}{%
+           family={Nitta},
+           familyi={N\bibinitperiod},
+           given={Naoki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=da76b27ad89bba939f023f33e727bb6b}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Feixiang},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d5b3417d50434c96565289713a622287}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jung\bibnamedelima Tae},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=05fcd8ab018695b8fff50d99b001fd5a}{%
+           family={Yushin},
+           familyi={Y\bibinitperiod},
+           given={Gleb},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b143f01b91f0a25f989f0778ff58e032}
+      \strng{fullhash}{67e526719224b8a23ac183ce531b0684}
+      \strng{bibnamehash}{67e526719224b8a23ac183ce531b0684}
+      \strng{authorbibnamehash}{67e526719224b8a23ac183ce531b0684}
+      \strng{authornamehash}{b143f01b91f0a25f989f0778ff58e032}
+      \strng{authorfullhash}{67e526719224b8a23ac183ce531b0684}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1369-7021}
+      \field{journaltitle}{Materials Today}
+      \field{number}{5}
+      \field{title}{Li-ion battery materials: present and future}
+      \field{volume}{18}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{252\bibrangedash 264}
+      \range{pages}{13}
+    \endentry
+    \entry{1_volta}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bdf568785967709b956529a2ecb0f9b9}{%
+           family={Dibner},
+           familyi={D\bibinitperiod},
+           given={Bern},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Franklin Watts}%
+      }
+      \strng{namehash}{bdf568785967709b956529a2ecb0f9b9}
+      \strng{fullhash}{bdf568785967709b956529a2ecb0f9b9}
+      \strng{bibnamehash}{bdf568785967709b956529a2ecb0f9b9}
+      \strng{authorbibnamehash}{bdf568785967709b956529a2ecb0f9b9}
+      \strng{authornamehash}{bdf568785967709b956529a2ecb0f9b9}
+      \strng{authorfullhash}{bdf568785967709b956529a2ecb0f9b9}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Immortals of science}
+      \field{title}{Alessandro {Volta} and the electric battery}
+      \field{year}{1964}
+      \keyw{Alessandro,batterier,Batterier,elektrisitet,Elektrisitet,historie,Historie,Volta}
+    \endentry
+    \entry{2_XRD}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5f29740f2ef6494bf4aca05218f20b78}{%
+           family={Als-Nielsen},
+           familyi={A\bibinithyphendelim N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3c4267fefe1c83e11678096f707bc385}{%
+           family={McMorrow},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Chichester, West Sussex}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley}%
+      }
+      \strng{namehash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \strng{fullhash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \strng{bibnamehash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \strng{authorbibnamehash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \strng{authornamehash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \strng{authorfullhash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed.}
+      \field{isbn}{1-283-40566-0}
+      \field{title}{Elements of modern X-ray physics}
+      \field{year}{2011}
+      \keyw{X-rays; Electromagnetic waves; Electronic books}
+    \endentry
+    \entry{Scotman}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=24b91b9136e5e9d2349da4fc381af420}{%
+           family={Scotman},
+           familyi={S\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UiO}%
+      }
+      \strng{namehash}{24b91b9136e5e9d2349da4fc381af420}
+      \strng{fullhash}{24b91b9136e5e9d2349da4fc381af420}
+      \strng{bibnamehash}{24b91b9136e5e9d2349da4fc381af420}
+      \strng{authorbibnamehash}{24b91b9136e5e9d2349da4fc381af420}
+      \strng{authornamehash}{24b91b9136e5e9d2349da4fc381af420}
+      \strng{authorfullhash}{24b91b9136e5e9d2349da4fc381af420}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Synchrotron Based Operando Methods for Characterization of Non-Aqueous Rechargeable Battery Electrode Materials}
+      \field{type}{phdthesis}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

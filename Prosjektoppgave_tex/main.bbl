@@ -1,0 +1,240 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{none}{none}
+    \entry{gandrud}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d8f9de362cb89cb9e3525578e7b57782}{Gandrud}{G\bibinitperiod}{Knut\bibnamedelima Bjarne}{K\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {UiO}%
+      }
+      \strng{namehash}{d8f9de362cb89cb9e3525578e7b57782}
+      \strng{fullhash}{d8f9de362cb89cb9e3525578e7b57782}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thin film materials for Li-ion batteries made by atomic layer deposition}
+      \field{type}{phdthesis}
+      \field{year}{2014}
+      \field{pages}{114}
+      \range{pages}{1}
+    \endentry
+    \entry{costcath}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1482f13a47428d0f3bde9ea2a7995da2}{Zaghib}{Z\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=79bbd5d02911287b1ebeed306e589f08}{Mauger}{M\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=787949217157c549532fe522a75508ef}{Julien}{J\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7e774820c6908d4281294571a18f233c}
+      \strng{fullhash}{7e774820c6908d4281294571a18f233c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Solid State Electrochemistry}
+      \field{number}{3}
+      \field{title}{Overview of olivines in lithium batteries for green transportation and energy storage}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{pages}{835\bibrangedash 845}
+      \range{pages}{11}
+      \keyw{{HEV},{PEV},{EV},energy storage,Li-ion batteries,Olivine}
+    \endentry
+    \entry{1_rev_liion}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6761049c65b973ddd81ece00379c2fc8}{Nitta}{N\bibinitperiod}{Naoki}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=da76b27ad89bba939f023f33e727bb6b}{Wu}{W\bibinitperiod}{Feixiang}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=d5b3417d50434c96565289713a622287}{Lee}{L\bibinitperiod}{Jung\bibnamedelima Tae}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=05fcd8ab018695b8fff50d99b001fd5a}{Yushin}{Y\bibinitperiod}{Gleb}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b143f01b91f0a25f989f0778ff58e032}
+      \strng{fullhash}{67e526719224b8a23ac183ce531b0684}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials Today}
+      \field{number}{5}
+      \field{title}{Li-ion battery materials: present and future}
+      \field{volume}{18}
+      \field{year}{2015}
+      \field{pages}{252\bibrangedash 264}
+      \range{pages}{13}
+    \endentry
+    \entry{1_volta}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bdf568785967709b956529a2ecb0f9b9}{Dibner}{D\bibinitperiod}{Bern}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Franklin Watts}%
+      }
+      \strng{namehash}{bdf568785967709b956529a2ecb0f9b9}
+      \strng{fullhash}{bdf568785967709b956529a2ecb0f9b9}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Immortals of science}
+      \field{title}{Alessandro {Volta} and the electric battery}
+      \field{year}{1964}
+      \keyw{Alessandro,batterier,Batterier,elektrisitet,Elektrisitet,historie,Historie,Volta}
+    \endentry
+    \entry{1_yazami}{article}{}
+      \name{author}{2}{}{%
+        {{hash=05a9d52d6650d3613a338112eba7d8f9}{Yazami}{Y\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=aa3d387d12a1f50b769603dc48eb94fd}{Touzain}{T\bibinitperiod}{Ph.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e5b6df59d6da740201f8fc7cc9b4e9a1}
+      \strng{fullhash}{e5b6df59d6da740201f8fc7cc9b4e9a1}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Power Sources}
+      \field{number}{3}
+      \field{title}{A reversible graphite-lithium negative electrode for electrochemical generators}
+      \field{volume}{9}
+      \field{year}{1983}
+      \field{pages}{365\bibrangedash 371}
+      \range{pages}{7}
+    \endentry
+    \entry{1_hist}{article}{}
+      \name{author}{2}{}{%
+        {{hash=737e715e7259c7966b16f4c80677ff0a}{Moshtev}{M\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b25b51b95a7d8f03a1ae99d393caef2b}{Johnson}{J\bibinitperiod}{B}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{df8d7adfefb8a70f5e7e893eeac2b72a}
+      \strng{fullhash}{df8d7adfefb8a70f5e7e893eeac2b72a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Power Sources}
+      \field{number}{2}
+      \field{title}{State of the art of commercial Li ion batteries}
+      \field{volume}{91}
+      \field{year}{2000}
+      \field{pages}{86\bibrangedash 91}
+      \range{pages}{6}
+      \keyw{Commercial Li ion batteries,LiCoO cathode,Accumulated capacity,Ragone plots,Polarization resistance}
+    \endentry
+    \entry{Goodenough2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f803a68bc39364b640e1baca36098cfc}{Goodenough}{G\bibinitperiod}{John\bibnamedelima B}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=04358337c101dfcdbff29618cb1d500f}{Park}{P\bibinitperiod}{Kyu-Sung}{K\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Washington, DC :}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \strng{fullhash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Chemical Society.}
+      \field{number}{4}
+      \field{title}{The Li-Ion Rechargeable Battery: A Perspective}
+      \field{volume}{135}
+      \field{year}{2013}
+      \field{pages}{1167\bibrangedash 1176}
+      \range{pages}{10}
+    \endentry
+    \entry{2_Goodenough_perspective}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f803a68bc39364b640e1baca36098cfc}{Goodenough}{G\bibinitperiod}{John\bibnamedelima B}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=04358337c101dfcdbff29618cb1d500f}{Park}{P\bibinitperiod}{Kyu-Sung}{K\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \strng{fullhash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{01}
+      \field{number}{4}
+      \field{title}{The Li-ion rechargeable battery: a perspective}
+      \field{volume}{135}
+      \field{year}{2013}
+      \keyw{Heat Transfer -- Methods ; Lithium Batteries -- Research ; Oxidation-reduction Reactions -- Analysis ; Surface Energy -- Measurement;}
+    \endentry
+    \entry{2_XRD}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5f29740f2ef6494bf4aca05218f20b78}{Als-Nielsen}{A\bibinithyphendelim N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3c4267fefe1c83e11678096f707bc385}{McMorrow}{M\bibinitperiod}{D}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Chichester, West Sussex}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley}%
+      }
+      \strng{namehash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \strng{fullhash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed.}
+      \field{title}{Elements of modern X-ray physics}
+      \field{year}{2011}
+      \keyw{X-rays; Electromagnetic waves; Electronic books}
+    \endentry
+    \entry{Scotman}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=24b91b9136e5e9d2349da4fc381af420}{Scotman}{S\bibinitperiod}{Jonas}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {UiO}%
+      }
+      \strng{namehash}{24b91b9136e5e9d2349da4fc381af420}
+      \strng{fullhash}{24b91b9136e5e9d2349da4fc381af420}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Synchrotron Based Operando Methods for Characterization of Non-Aqueous Rechargeable Battery Electrode Materials}
+      \field{type}{phdthesis}
+      \field{year}{2017}
+    \endentry
+  \endsortlist
+  \missing{bibid}
+  \missing{2_CV}
+\endrefsection
+\endinput
+

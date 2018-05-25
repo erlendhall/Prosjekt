@@ -1,0 +1,111 @@
+%\documentclass[norsk,12pt,twoside]{article}
+
+%\usepackage[norsk]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{a4, fullpage, parskip}
+
+%\usepackage[a4paper]{geometry}
+
+\usepackage[intlimits]{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{letltxmacro}
+\usepackage{cancel}
+\usepackage{listings}
+\usepackage{graphicx, xcolor}
+\usepackage[export]{adjustbox}
+\usetikzlibrary{arrows}
+\usepackage{gensymb}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{textcomp}
+\usepackage{siunitx}
+%Chemistry
+\usepackage{chemfig}
+\usepackage[version=4]{mhchem}
+\usepackage{filecontents}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{adjustbox}
+\usepackage{python}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{esint}
+\usepackage{tabu}
+\usepackage{physics}
+\usepackage{todonotes}
+\usepackage{booktabs}
+\usepackage[T1]{url}
+\usepackage{subfiles}
+\usepackage{fancyhdr}
+
+%\usepackage{hyperref}
+
+\tikzset{snake it/.style={decorate, decoration=snake},>=latex}
+
+%MNfrontpage
+%\usepackage[KJM, OnlyFrontpage]{mnfrontpage}
+\usepackage[KJM]{Main/mnfrontpage}
+
+
+
+%BibLaTeX
+\usepackage{csquotes}
+%numeric-comp
+\usepackage[backend=biber, style=ieee]{biblatex}
+%\DeclareFieldFormat[pdfthesis]{title}{\textit{#1}}
+\bibliography{Main/references.bib}
+
+%Kode for pene kvadratrøtter%
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+%Definisjoner%
+\newcommand{\svar}[1]{\underline{\underline{#1}}}
+%\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+\newcommand{\partell}[1]{\dfrac{\partial}{\partial#1}}
+\newcommand{\partiell}[2]{\frac{\partial#1}{\partial#2}}
+\newenvironment{bevis}
+{\begin{proof}[\unskip\nopunct]}
+{\end{proof}}
+\definecolor{light-gray}{gray}{0.98}
+\definecolor{dkgreen}{rgb}{0,0.5,0}
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+\newcommand{\der}[2]{\frac{\mathop{}\!\mathrm{d#1}}{{\mathop{}\!\mathrm{d#2}}}}
+\renewcommand{\bf}[1]{\mathbf{#1}}
+\newcommand{\grstep}[2][\relax]{%
+   \ensuremath{\mathrel{
+       {\mathop{\longrightarrow}\limits^{#2\mathstrut}_{
+                                     \begin{subarray}{l} #1 \end{subarray}}}}}}
+\newcommand{\radop}[1]{\stackrel{#1}{\sim}}
+\newcommand{\ha}{\frac{1}{2}}
+
+%Redefinisjoner%
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\renewcommand{\(}{\left(}
+\renewcommand{\)}{\right)}
+\renewcommand{\arraystretch}{1.5}
+
+%Mer plass align
+\addtolength{\jot}{0.3em}
+
+%Programming
+\lstset{language = Matlab, keywordstyle=\color{blue}, commentstyle=\color{dkgreen}, 
+basicstyle=\ttfamily, backgroundcolor=\color{light-gray}, showstringspaces=false}
+
+\pgfplotstableset{% global config, for example in the preamble
+  every head row/.style={before row=\toprule,after row=\midrule},
+  every last row/.style={after row=\bottomrule},
+  fixed,%precision=2,
+}
