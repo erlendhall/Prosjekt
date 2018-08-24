@@ -107,7 +107,7 @@
 \DeclareOption{LongTitle}
 { 
     \def \MNFP@title {Long}
-    \def \MNFP@titlesize {\fontsize{24}{27pt}}
+    \def \MNFP@titlesize {\fontsize{30}{33pt}}
 }
 \DeclareOption{ExtraLongTitle}
 {
@@ -248,7 +248,7 @@
         
         \ifthenelse{ \equal{\MNFP@Dept}{mn} }
         {
-            \def \MNFP@titlepos {41.5 mm}
+            \def \pos {41.5 mm}
             \setlength{\MNFPtitlelength}
                 {\paperwidth - 22 mm - \MNFP@titlepos - \MNFP@indent} 
         }

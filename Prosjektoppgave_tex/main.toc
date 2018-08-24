@@ -1,50 +1,65 @@
+
+\save@tocdepth \setcounter {tocdepth}{2}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\contentsline {section}{\numberline {1}Introduction}{1}
-\contentsline {subsection}{\numberline {1.1}History}{2}
-\contentsline {subsection}{\numberline {1.2}The Li-ion battery}{2}
-\contentsline {subsubsection}{\numberline {1.2.1}Cathodes}{3}
-\contentsline {paragraph}{\ce {MnO2}}{3}
-\contentsline {paragraph}{\ce {LiMn2O4} (LMO)}{3}
-\contentsline {paragraph}{\ce {LiMn_{1.5}Ni_{0.5}O4} (LNMO)}{3}
-\contentsline {subsection}{\numberline {1.3}Prior work}{3}
-\contentsline {subsubsection}{\numberline {1.3.1}Spray pyrolysis}{4}
-\contentsline {subsection}{\numberline {1.4}Definition of the thesis}{4}
-\contentsline {section}{\numberline {2}Theory and Methods}{4}
-\contentsline {subsection}{\numberline {2.1}Electrochemistry}{4}
-\contentsline {subsubsection}{\numberline {2.1.1}Electrochemical cells}{4}
-\contentsline {subsubsection}{\numberline {2.1.2}How batteries typically are made}{5}
-\contentsline {subsection}{\numberline {2.2}Scanning Electron Microscope (SEM)}{6}
-\contentsline {subsection}{\numberline {2.3}X-ray diffraction (XRD)}{6}
-\contentsline {subsection}{\numberline {2.4}Electrochemical analysis}{7}
-\contentsline {subsubsection}{\numberline {2.4.1}Impedance}{7}
-\contentsline {subsubsection}{\numberline {2.4.2}Cyclic voltammetry}{7}
-\contentsline {subsubsection}{\numberline {2.4.3}Galvanostatic cycling}{7}
-\contentsline {subsection}{\numberline {2.5}Liquid injection system under vacuum}{7}
-\contentsline {section}{\numberline {3}Experimental design}{8}
-\contentsline {subsection}{\numberline {3.1}Liquid injection system}{8}
-\contentsline {subsubsection}{\numberline {3.1.1}Parameter testing}{8}
-\contentsline {subsubsection}{\numberline {3.1.2}Cathode production}{9}
-\contentsline {subsection}{\numberline {3.2}Chemicals used}{11}
-\contentsline {subsection}{\numberline {3.3}Experimental runs}{11}
-\contentsline {subsection}{\numberline {3.4}X-ray diffraction}{12}
-\contentsline {subsection}{\numberline {3.5}Scanning electron microscopy}{12}
-\contentsline {subsection}{\numberline {3.6}Nanoscratch}{12}
-\contentsline {subsection}{\numberline {3.7}Coin-Cell Assembly}{12}
-\contentsline {subsection}{\numberline {3.8}Electrochemical analysis}{12}
-\contentsline {section}{\numberline {4}Results}{13}
-\contentsline {subsection}{\numberline {4.1}Liquid injection system}{13}
-\contentsline {subsection}{\numberline {4.2}Characterizing - SEM and XRD}{13}
-\contentsline {subsubsection}{\numberline {4.2.1}\ce {MnO2}}{13}
-\contentsline {subsubsection}{\numberline {4.2.2}\ce {LiMn2O4}}{14}
-\contentsline {subsubsection}{\numberline {4.2.3}\ce {LiMn_{1.5}Ni_{0.5}O4} - LNMO}{14}
-\contentsline {subsection}{\numberline {4.3}Electrochemical analysis}{14}
-\contentsline {subsubsection}{\numberline {4.3.1}\ce {MnO2}}{14}
-\contentsline {subsubsection}{\numberline {4.3.2}\ce {LiMn2O4}}{14}
-\contentsline {subsubsection}{\numberline {4.3.3}\ce {LiMn_{1.5}Ni_{0.5}O4} - LNMO}{14}
-\contentsline {subsection}{\numberline {4.4}\textbf {OR}}{14}
-\contentsline {subsubsection}{\numberline {4.4.1}Impedance}{14}
-\contentsline {subsubsection}{\numberline {4.4.2}Cyclic Voltametry}{14}
-\contentsline {subsubsection}{\numberline {4.4.3}Galvnostatic Cycling}{14}
-\contentsline {section}{\numberline {5}Discussion}{14}
-\contentsline {section}{\numberline {6}Conclusion}{14}
-\contentsline {section}{\numberline {7}Further work}{14}
+\contentsline {chapter}{Preface}{iii}{Doc-Start}
+\contentsline {chapter}{Abstract}{v}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}History}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}The Li-ion battery}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Cathodes}{2}{subsection.1.2.1}
+\contentsline {paragraph}{\ce {MnO2}}{3}{section*.4}
+\contentsline {paragraph}{\ce {LiMn2O4} (LMO)}{3}{section*.5}
+\contentsline {paragraph}{\ce {LiNi_{0.5}Mn_{1.5}O4} (LNMO)}{3}{section*.6}
+\contentsline {section}{\numberline {1.3}Prior work}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Aim of study}{5}{section.1.4}
+\contentsline {chapter}{\numberline {2}Theory and Methods}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Electrochemistry}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Scanning Electron Microscope}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}X-ray diffraction}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Electrochemical analysis}{10}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Electric Impedance Spectroscopy}{10}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Cyclic voltammetry}{10}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Galvanostatic cycling}{11}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Liquid injection system in vacuum}{11}{section.2.5}
+\contentsline {chapter}{\numberline {3}Experimental design}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Liquid injection system}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Parameter testing}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Cathode production}{15}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Precursors}{16}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Chemicals}{16}{subsection.3.2.1}
+\contentsline {subsubsection}{Stochiometry}{17}{section*.18}
+\contentsline {section}{\numberline {3.3}Experimental runs}{17}{section.3.3}
+\contentsline {paragraph}{\ce {MnO2}}{17}{section*.19}
+\contentsline {paragraph}{LMO}{17}{section*.20}
+\contentsline {paragraph}{LNMO}{17}{section*.21}
+\contentsline {section}{\numberline {3.4}X-ray diffraction}{18}{section.3.4}
+\contentsline {section}{\numberline {3.5}Scanning electron microscopy}{18}{section.3.5}
+\contentsline {section}{\numberline {3.6}Coin-Cell Assembly}{18}{section.3.6}
+\contentsline {section}{\numberline {3.7}Electrochemical analysis}{19}{section.3.7}
+\contentsline {chapter}{\numberline {4}Results and Discussion}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Parameter testing}{21}{section.4.1}
+\contentsline {subsubsection}{Position of injector tube}{21}{section*.23}
+\contentsline {subsubsection}{Substrates}{21}{section*.24}
+\contentsline {subsubsection}{Concentration of precursors}{22}{section*.25}
+\contentsline {section}{\numberline {4.2}Characterization}{23}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}SEM}{23}{subsection.4.2.1}
+\contentsline {subsubsection}{\ce {MnO2}}{23}{section*.28}
+\contentsline {subsubsection}{\ce {LiMn2O4}}{24}{section*.30}
+\contentsline {subsubsection}{\ce {LiNi_{0.5}Mn_{1.5}O4}}{25}{section*.32}
+\contentsline {subsubsection}{Hollow spheres}{27}{section*.35}
+\contentsline {subsubsection}{A note on droplet-particle size}{28}{section*.36}
+\contentsline {subsubsection}{Agglomerates}{29}{section*.38}
+\contentsline {subsection}{\numberline {4.2.2}XRD}{30}{subsection.4.2.2}
+\contentsline {subsubsection}{\ce {MnO2}}{30}{section*.40}
+\contentsline {subsubsection}{LMO}{31}{section*.42}
+\contentsline {subsubsection}{LNMO}{31}{section*.44}
+\contentsline {section}{\numberline {4.3}Electrochemical analysis}{32}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Electric Impedance Spectroscopy}{32}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Cyclic Voltametry}{33}{subsection.4.3.2}
+\contentsline {subparagraph}{Figure \ref {fig:CV_cyc2} (a) and (b)}{33}{section*.47}
+\contentsline {subparagraph}{In figure \ref {fig:CV_cyc2} (c) and (d),}{34}{section*.48}
+\contentsline {subparagraph}{Lastly, figure \ref {fig:CV_cyc2} (e) and (f)}{34}{section*.49}
+\contentsline {subsubsection}{Capacitor}{36}{section*.52}
+\contentsline {subsection}{\numberline {4.3.3}Galvnostatic Cycling}{37}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Conclusion}{39}{chapter.5}
+\contentsline {chapter}{Bibliography}{41}{chapter.5}

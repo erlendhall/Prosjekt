@@ -1,15 +1,15 @@
-%\documentclass[norsk,12pt,twoside]{article}
+%\documentclass[norsk,12pt,a4paper, twoside]{article}
 
-%\usepackage[norsk]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{a4, fullpage, parskip}
+%\usepackage[norsk]{babel} 		%For norsk oppsett
+\usepackage[T1]{fontenc} 		%8-bit encoding and fonts with 256 glyphs. 
+\usepackage[utf8]{inputenc} 	%Input accented characters. 
+%\usepackage{parskip} 			%Whitespace before paragraphs
+%\usepackage{fullpage}
 
-%\usepackage[a4paper]{geometry}
+\usepackage[width=160mm,top=25mm,bottom=25mm, headheight=15pt]{geometry} 
 
 \usepackage[intlimits]{amsmath}
-\usepackage{amsthm}
-\usepackage{amssymb}
+\usepackage{amsthm, amssymb}
 \usepackage{tikz}
 \usepackage{letltxmacro}
 \usepackage{cancel}
@@ -18,38 +18,55 @@
 \usepackage[export]{adjustbox}
 \usetikzlibrary{arrows}
 \usepackage{gensymb}
-\usepackage{pgfplots}
+\usepackage{pgfplots} \pgfplotsset{compat=1.15}
 \usepackage{pgfplotstable}
+%\usepackage{threeparttable} %For adding notes under tables
 \usepackage{textcomp}
-\usepackage{siunitx}
-%Chemistry
+
+
+%Special packages for science
 \usepackage{chemfig}
 \usepackage[version=4]{mhchem}
+\usepackage{python}
+\usepackage{mathtools, mathrsfs}
+\usepackage{physics}
+\usepackage{siunitx}
+
 \usepackage{filecontents}
-\usepackage{caption}
+\usepackage[font={small,it}]{caption}
 \usepackage{subcaption}
 \usepackage{float}
+\usepackage[section]{placeins} %keep floats confined by \FloatBarrier
 \usepackage{adjustbox}
-\usepackage{python}
-\usepackage{mathtools}
-\usepackage{mathrsfs}
+
+
 \usepackage{esint}
 \usepackage{tabu}
-\usepackage{physics}
 \usepackage{todonotes}
 \usepackage{booktabs}
 \usepackage[T1]{url}
-\usepackage{subfiles}
+\usepackage{comment}
 \usepackage{fancyhdr}
+\usepackage{subfiles}
 
-%\usepackage{hyperref}
+%Links in document
+\usepackage{hyperref}
+\hypersetup{%
+     linktocpage,
+     colorlinks,
+     citecolor=black,
+     filecolor=black,
+     linkcolor=black,
+     urlcolor=black,
+}
+
 
 \tikzset{snake it/.style={decorate, decoration=snake},>=latex}
 
 %MNfrontpage
-%\usepackage[KJM, OnlyFrontpage]{mnfrontpage}
-\usepackage[KJM]{Main/mnfrontpage}
-
+\usepackage[KJM, bound, LongTitle]{Main/mnfrontpage}
+%Options: Print, bound, Ordinary/(Extra)LongTitle
+%OnlyFrontpage if article.
 
 
 %BibLaTeX
@@ -97,6 +114,9 @@
 \renewcommand{\)}{\right)}
 \renewcommand{\arraystretch}{1.5}
 
+\renewcommand{\chaptername}{}
+%\renewcommand{\thechapter}{}
+
 %Mer plass align
 \addtolength{\jot}{0.3em}
 
@@ -109,3 +129,29 @@ basicstyle=\ttfamily, backgroundcolor=\color{light-gray}, showstringspaces=false
   every last row/.style={after row=\bottomrule},
   fixed,%precision=2,
 }
+
+
+%Changing vspace on chapter pages
+
+\makeatletter
+\def\@makechapterhead#1{%
+	\vspace*{10\p@}% %%% removed!
+	{\parindent \z@ \raggedright \normalfont
+		\ifnum \c@secnumdepth >\m@ne
+		\Huge\bfseries \@chapapp\space \thechapter
+		\par\nobreak
+		\vskip 20\p@
+		\fi
+		\interlinepenalty\@M
+		\Huge \bfseries #1\par\nobreak
+		\vskip 50\p@
+}}
+\def\@makeschapterhead#1{%
+	\vspace*{20\p@}% %%% removed!
+	{\parindent \z@ \raggedright
+		\normalfont
+		\interlinepenalty\@M
+		\Huge \bfseries  #1\par\nobreak
+		\vskip 40\p@
+}}
+\makeatother

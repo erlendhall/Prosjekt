@@ -1,39 +1,64 @@
-\documentclass[12pt, twoside]{article}
+\documentclass[12pt, a4paper, twoside, openright]{book} %openany
 \input{Main/preamble}
-%\usepackage{amsfonts}
+
 \usepackage{pdfpages}
+\usepackage{tocvsec2}
 \usepackage[english]{Main/duomasterforside}
+%\graphicspath{uploads}
+\usepackage{tocloft}
+\setlength{\cftbeforechapskip}{1.3em}
+\setlength{\cftbeforesecskip}{0.3em}
+\setlength{\cftbeforesubsecskip}{0.2em}
 
-\fancyfoot[LE,RO]{\thepage}
-%\pagestyle{fancy}f
+%\fancyfoot{} 
+%\fancyfoot[LE,RO]{\thepage}
+%\fancyhead[LE,RO]{\leftmark}
 
-\title{Manufacturing of cathode materials by liquid injection system in vacuum}
+\setsecnumdepth{subsection}
+\settocdepth{subsection}
+
+
+
+
+\title{Synthesis of cathode materials by liquid injection system in vacuum}
 \author{Erlend Hall}
 \date{Spring 2018}
 
 
 \begin{document}
-%\mnfrontpage
-%\duoforside[dept=Department of Chemistry, short=20, program={Materials, Energy and Nanotechnology},
-%title= \textsc{Manufacturing of cathode materials by liquid injection system in vacuum}/ \\ Synthesis of cathode materials using liquid injection]
-\pagenumbering{roman}
+\frontmatter
+\mnfrontpage
+\duoforside[dept=Department of Chemistry, short=20, program={Materials, Energy and Nanotechnology}, title= {Synthesis of cathode materials by liquid injection system in vacuum}]
+%\frontmatter
+
+\input{Main/preface}
+%\fancyfoot[c]{\thepage}
+%\clearpage\hfill{}
+\newpage\null\thispagestyle{plain}\newpage
+\input{Main/abstract}
+
+\newpage\null\thispagestyle{plain}\newpage
+
 \pagebreak
+\pagestyle{fancy}
 \tableofcontents
 \pagebreak
 
-\pagenumbering{arabic}
+\mainmatter
 \subfile{Content/introduction}
-
 
 \subfile{Content/theorynmethod}
 
 \subfile{Content/results}
 
 \subfile{Content/discussion}
-
+\backmatter
 \newpage
+\addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
 
 %CRC Handbook of chemistry
 
 \end{document}
+
+

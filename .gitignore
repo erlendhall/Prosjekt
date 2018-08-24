@@ -1,1 +1,4 @@
 *.aux
+*.bcf
+*.blg
+*.toc

@@ -25,14 +25,11 @@
   \parindent = 0pt   \parskip = 0pt
   \@ifundefined{hypersetup}{}{\hypersetup{pageanchor=false}}
   \setkeys{duo@keys}{#1}
-  \duo@page@i
-  \@ifundefined{duo@thesisname@eng}
-    {\if@twoside \duo@blankpage \fi}
-    % {\duo@page@ii \duo@page@iii
-    {\duo@page@iv}
+  \duo@page@i {\if@twoside \duo@blankpage \fi} 
   \setcounter{page}{1}
   \@ifundefined{hypersetup}{}{\hypersetup{pageanchor=true}}
 }}
+%\duo@blankpage | \duo@page@ii \duo@page@iii {\if@twoside \duo@blankpage \fi} | \duo@page@i \duo@page@iv
 
 \newcommand{\duo@empty}{}
 
@@ -100,7 +97,7 @@
 
 \newcommand{\duo@page@iv}{%
   \begin{titlepage}
-    \null
+    \null 
     \vfill
     \raggedright
     \def \and {, }

@@ -1,12 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2018.4.25)  8 MAY 2018 10:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.23)  25 APR 2018 16:22
 entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
 **./theorynmethod.tex
-(theorynmethod.tex
-LaTeX2e <2016/02/01>
-Babel <3.9n> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\subfiles\subfiles.cls"
+(./theorynmethod.tex
+LaTeX2e <2017-04-15>
+Babel <3.16> and hyphenation patterns for 84 language(s) loaded.
+(c:/texlive/2017/texmf-dist/tex/latex/subfiles/subfiles.cls
 Document Class: subfiles 2012/05/23 Federico Garcia
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+(c:/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks14
 \verbatim@line=\toks15
@@ -20,20 +23,20 @@ Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: tex)
 
 Enter file name: 
-! Emergency stop.
+c:/texlive/2017/texmf-dist/tex/latex/subfiles/subfiles.cls:40: Emergency stop.
 <read *> 
          
 l.40 \input{\preamble@file}
-                           
+                           ^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 52 strings out of 493622
- 989 string characters out of 3143635
- 52689 words of memory out of 3000000
- 3538 multiletter control sequences out of 15000+200000
- 3640 words of font info for 14 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 18i,0n,17p,174b,16s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 51 strings out of 492980
+ 1022 string characters out of 6136207
+ 54250 words of memory out of 5000000
+ 3708 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,0n,17p,174b,16s stack positions out of 5000i,500n,10000p,200000b,80000s
+c:/texlive/2017/texmf-dist/tex/latex/subfiles/subfiles.cls:40:  ==> Fatal error occurred, no output PDF file produced!

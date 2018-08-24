@@ -2,7 +2,7 @@
 
 \begin{document}
 \newpage
-\section{Results}
+\chapter{Results and Discussion}
 
 %Data and results as they are
 
@@ -10,36 +10,168 @@
 %Results: Mathematical manipulated data
 
 
-\begin{itemize}
-    \item Findings? Effect of position of needle, concentration, placement of substrate, covering the substrate
-    \item Identification - XRD, SEM, Nanoscratch
-    \begin{itemize}
-        \item SEM - particle size, homogenity, surface roughness
-        \item XRD - phases present
-    \end{itemize}
-    \item Electrochemical - Impedance, CV and GC
-    \item Other results?
-    \item \ce{MnO2}, \ce{LiMn2O4}, \ce{LiMn_{1.5}Ni_{0.5}O4}
-\end{itemize}
+%This chapter deals with the findings and results of the experimental work, closely followed by a discussion. 
 
-\subsection{Liquid injection system}
+%possible explanation for observed behaviour explored.
+%The meaning of the results
+%Relate results to the work of other scientists and publications
+%Weak areas and use theory
+%Relate results to initial problem
+%Balance and objectivity
 
-\textbf{Table of different parameters and their effect?}
-Position of needle - no visible effect. Might be a chance of clogging if the needle is very far down.
 
-Concentration of precursors -> Particle size and weight of deposited material
+In this chapter, findings from the preliminary tests of the liquid injection system are presented and discussed. Secondly, the characterization of the as-deposited oxides are presented. The morphology is explored with SEM and the structure is characterized by XRD. Lastly, the electrochemical results, composed of EIS, CV and GC are presented at the end.
 
-\subsection{Characterizing - SEM and XRD}
+
+\section[Parameter testing]{Parameter testing}
+
+ Several parameters were tuned in order to help understand the processes occurring during the injection. The position of the injector tube, the concentration of cations in the precursors and the placement of substrates were of particular interest.
+ 
+
+ \subsubsection{Position of injector tube}
+The position of the injector tube is directly related to the distance between the emerging droplet and the substrate surface, as seen in section 3.1. This is shown to have a considerable effect in spray pyolysis, affecting which processes occur mid-air, near the substrate surface and on the substrate surface. However, the different positions of the injector-tube with respect to the substrates showed no visible effect on the deposited oxides. It is worth noting that no tests were performed with the position changed in an excessive manner, the distance was never smaller than 10 cm or greater than 15 cm to the closest substrate. It is considered likely that a much lower position than what was tested will result in clogging of the injector tube due to oxides forming immediately as the drop emerges and sticks to the tube.
+
+\subsubsection{Substrates}
+
+Several variations in placement and covering of the substrates with respect to the injector wire were tested. Substrates placed directly in the spray zone were found to have concentrated formation of particles visible to the naked eye, probably resulting from big droplets hitting the substrate before dispersing. Substrates, especially round steel plates, placed in the bottom of the flask experienced an agglomeration of 'islands'. This lead to a realisation that for the deposited material to be as uniformly distributed as possible, the substrates should be placed in such a manner that it is not directly in the spray zone, and not at the very bottom of the flask.
+ 
+ \subsubsection{Concentration of precursors}
+ Figure \ref{fig:coverage} shows the round-bottom flask after synthesising \ce{MnO2} with different concentrations of the precursor. Evidently, there was a clear increase in deposited material with an increased concentration of precursors. The particles seem to have been distributed quite evenly around the surface, making it possible to synthesise oxides on several substrates simultaneously provided that the substrates do not directly overlap. Consequently, as outlined in the experimental section, the final setup included three steel substrates distributed in the round-bottom flask. Here, a glass substrate is shielding the steel substrates from any direct spray.
+ %Consequently, the decision was made to try and place several similar 
+
+ 
+ \begin{figure}[ht]
+ \centering
+     \begin{tabular}{c c}
+     \begin{subfigure}[r]{0.45\textwidth}
+     \qquad \qquad \includegraphics[width=\textwidth-2cm]{uploads/coverage-low-lr}
+     \caption{0.25 M of precursor}
+     \end{subfigure}
+     &
+     \begin{subfigure}[l]{0.45\textwidth}
+     \includegraphics[width=\textwidth-2cm]{uploads/coverage-high-lr}
+     \caption{2.50 M of precursor}
+     \end{subfigure}
+     \end{tabular}
+     \caption{The round-bottom flask after a run with low concentration (a) and high concentration (b) of precursors. Both are after synthesising \ce{MnO2}.}
+     \label{fig:coverage}
+ \end{figure}
+
+With the setup fixed and the production of cathodes as the main incentive, the steel substrates were weighed before and after deposition in order to find the amount of deposited material. The recorded masses are summarised in table \ref{fig:mass}. Only the substrates that were used in coin cells and thus discussed further are included. Evidently, the mass of the deposited oxides increased drastically with a ten-fold concentration, with the exception of cathode 53 from the 2.50 M LNMO. Unfortunately, the first measurements present a large uncertainty since the measurements were performed on a scale with insufficient precision. This was corrected when measuring cathodes 21 and upwards with the use of a higher-precision scale.
+
+Nevertheless, the increase in deposited material is clear, and shows that a ten-fold increase in the concentration of precursor cations increase the deposited material by a factor between 4.5 and 20 (cathode 53 treated as an outlier). However, especially for the 2.50 M precursors, there are huge variations in the deposited material for the various steel substrates. In the following discussion, due to uncertainty, only cathodes 31-33, 41,42 and 51-53 are addressed. 
+
+The cathodes numbered X1 were placed in the holder, closest to the injector tube, cathodes X2 were placed in the middle and X3 furthest away from the tube. For the runs synthesizing \ce{MnO2} and LMO, the mass seems to be directly related to either the distance from the injector tube, the amount of other substrates shielding from the emerging droplets or a combination of these. This is not the case with LNMO. Here, the substrate in the middle has a lot of deposited material and the bottom substrate has barely got more than its low-concentration counterpart. Therefore, no conclusion can be drawn as to which placement is optimal or whether the bottom placement should be avoided. 
+
+
+\begin{table}[ht]
+	\caption{The recorded masses of the as-deposited oxides. There is an increase in the weight going from LMO to LNMO at low concentration and a further clear increase going to higher concentration. }
+	\label{fig:mass}
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}[ht]{c ccc ccc c ccc ccc cc ccc}
+		\toprule
+		Oxide & \multicolumn{3}{c}{0.25 M \ce{MnO2}} & \multicolumn{3}{c}{0.25 M LMO} &  & \multicolumn{3}{c}{0.25 M LNMO}  & \multicolumn{3}{c}{2.50 M LMO}  & \multicolumn{2}{c}{2.50 M \ce{MnO2}} & \multicolumn{3}{c}{2.50 M LMNO} \\ 
+		\hline 
+		Cathode & 02 & 04 & 08 & 11 & 12 & 14 & & 21 & 23 & 24 & 31 & 32 & 33 & 41 & 42 & 51 & 52 & 53 \\ 
+		\midrule
+		Mass [mg]  & 0.08 & 0.07 & 0.18 & 0.075 & 0.078 & 0.072 & & 0.7 & 0.7 & 0.7 & 3.307 & 2.074 & 1.717 & 2.11 & 1.633 & 3.170 & 7.927 & 0.769 \\
+		\midrule
+        Uncertainty [mg] & \multicolumn{6}{c}{$\pm$ 0.15} & \vrule & \multicolumn{11}{c}{$\pm$ 0.002} \\ 
+		\bottomrule
+	\end{tabular} }
+\end{table}
+ %\multicolumn{6}{c}{Number} & \multicolumn{11}{c}{Number} & & & & & &
+
+
+\section[Characterization]{Characterization - Structure and morphology}
+In the following section the results from the structural, compositional and morphological characterization of the synthesised oxides are presented. 
+
+\subsection{SEM}
+The morphology and composition was studied using a SEM. Average particle size, distribution and shape of the particles as well as the composition were of interest. In order to make a good electrode material, an even distribution and relatively small particles are preferential \cite{elmat_sprayp}. There are also several authors suggesting the advantage of porous and hollow structures \cite{elmat_sprayp,1_amorph_MnO2}.
 
 \subsubsection{\ce{MnO2}}
-	
-Put SEM and XRD together?
+
+In figure \ref{fig:MnO2_diff}, SEM images of the synthesised \ce{MnO2} at 0.25 M and 2.5M of cations are presented. In (a) and (b), the substrate (steel) is specked with particles ranging from 1 to 40 $\si{\micro m}$. The steel substrate is evident in the light-gray areas where lines after polishing can be seen. In (c) and (d), the story is quite different. The substrate is now fully covered by the synthesised particles. Moreover, the surface appears to be porous with some spherical particles distributed evenly around the surface.
+Comparing the figures clearly show that changing from low to high concentration increases the coverage on the substrate. It appears that a lot more material is deposited which correlates well with the behaviour seen in figure \ref{fig:coverage} and is the expected trend from an increase in precursor concentration. 
 
 
+\begin{figure}[ht] 
+    \centering
+	\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/MO-lav}\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/MO-lav-inset} \\
+	\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/MO-hoy}\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/MO-hoy-inset}
+	\caption{SEM images of the synthesised \ce{MnO2} with different concentrations of cations and magnification: a,b) 0.252 M and c,d) 2.5 M. The scale bar is 300 \si{\micro m} for a) and c) and 50 \si{\micro m} for b) and d). As can be seen by comparing a,b) and c,d), the coverage has increased significantly with the increased concentration of precursors. Images a) and b) are from a steel substrate, hence the underlying lines stemming from polishing. Images c) and d) are from glass.}
+	\label{fig:MnO2_diff}
+\end{figure}
 
 
-
+\FloatBarrier
 \subsubsection{\ce{LiMn2O4}}
+SEM images of the synthesised \ce{LiMn2O4} are presented in figure \ref{fig:LMO_diff}. Similarly to \ce{MnO2}, the images of the lower concentration of cations (a,b) show less coverage of oxides on the surface than the high concentration (c,d) since the substrate can be clearly seen underneath, again as light-grey areas with lines from polishing apparent. There also appears to be more particles with a size around 0.5-1 \si{\micro m}.
+
+The cluster of particles on the lower left-hand side of \ref{fig:LMO_diff}.c is shown by EDS analysis to contain an increased composition of Mn with the ratio of 1:1.1 (Mn:O) as opposed to 1:1.65 (Mn:O) on average over the rest of the sample. 
+
+The surface of (c) and (d) appears less porous than \ce{MnO2}, but still with some porous clusters where the particles seem to have agglomerated.
+
+\begin{figure}[ht]
+    \centering
+	\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/LMO-lav}\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/LMO-lav-inset} \\
+	\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/LMO-hoy} \includegraphics[width=0.49\textwidth,keepaspectratio]{uploads/LMO-hoy-inset}
+	\caption{SEM images of the synthesised \ce{LiMn2O4} with different concentrations of cations and magnification: a,b) 0.252 M and c,d) 2.5 M. The scale bar is 300 \si{\micro m} for a) and c) and 50 \si{\micro m} for b) and c) As can be seen by comparing a,b) and c,d), the coverage has increased significantly with the increased concentration of precursors. Images a) and b) are from a steel substrate, hence the underlying lines stemming from polishing. Images c) and d) are from glass.}
+	\label{fig:LMO_diff}
+\end{figure}
+
+
+\FloatBarrier
+\subsubsection{\ce{LiNi_{0.5}Mn_{1.5}O4}}
+Figure \ref{fig:LNMO_diff} shows SEM images of the synthesised \ce{LiNi_{0.5}Mn_{1.5}O4}. Contrary to the low-concentration images seen above, whether or not the substrate is covered by more oxides after an increased concentration is not easily deducted by a visual inspection alone. However, the EDS analysis presented in figure  \ref{fig:LNMO_EDS} shows less Na for the increased concentration (b) than the lower concentration (a). This is evident in both the composition images and the elemental analysis. In a) 10.05 at.\% Na is present compared to 6.14\% in b). This is due to more oxides covering the glass substrate, causing less electrons to reach the Na present in the glass substrate. Thus, the coverage has indeed increased going from 0.25 M to 2.5 M of cations in the precursor.
+
+The low-concentration images (a and b) show a quite different morphology than what has been seen for \ce{MnO2} and LMO. There appears to be an ensemble of crystallites with spheres of various size on top and between the grain boundaries. The crystallites are in the range of 200 \si{nm} to 1 \si{\micro m}. Looking closely at (b), it may look as though spheres of 5-10 \si{\micro m} are covered in crystallites and further have more spheres of 1-10 \si{\micro m} on the surface. 
+Emerging with this theory is the notion of the surface seen in (c) and (d) being built in much the same fashion. The difference here being more and possibly even smaller particles creating a film with some craters at the darker spot. This last claim is backed up by the elemental analysis where the Na can be seen in the spots corresponding to the dark areas, thus being more available at these spots. 
+
+Also worth noting from the EDS analysis is the even dispersion of Ni. This is highly promising since \ce{LiNi_{0.5}Mn_{1.5}O4} is the desired compound. 
+
+\begin{figure}[ht]
+    \centering
+	\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/LNMO-lav}\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/LNMO-lav-inset} \\
+	\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/LNMO-hoy}\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/LNMO-hoy-inset}
+	\caption{SEM images of the synthesised \ce{LiNi_{0.5}Mn_{1.5}O4} with different concentrations of cations and magnification: a,b) 0.252 M and c,d) 2.5 M. The scale bar is 300 \si{\micro m} for a) and c) and 50 \si{\micro m} for b) and d) As can be seen by comparing a,b) and c,d), the coverage has increased significantly with the increased concentration of precursors. Both images are from glass substrates.}
+	\label{fig:LNMO_diff}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+	\raisebox{7cm}{a)} \includegraphics[width=\linewidth-1.6em,keepaspectratio]{uploads/LNMO-EDS-lav} \\[0.5em]
+	\raisebox{7cm}{b)} \includegraphics[width=\linewidth-1.6em,keepaspectratio]{uploads/LNMO-EDS-hoy} 
+	\caption{EDS images and analysis of the synthesised \ce{LiNi_{0.5}Mn_{1.5}O4} with different concentrations of cations, corresponding to 0.252 M (a) and 2.5 M (b). The analysis tells us that there is an even distribution of O, Mn and Ni. Furthermore, in (b), there is less to be seen of the Na from the glass substrate indicating more deposited oxides.}
+	\label{fig:LNMO_EDS} 
+\end{figure}
+
+
+\FloatBarrier ~\\[-4em]
+\subsubsection{Hollow spheres}
+Common for all the samples is an assembly of particles with different shapes. Among these, the formation of spheres is particularly interesting due to its promising structural stability and rate capability \cite{elmat_sprayp}. Figure \ref{fig:Kule} shows snippets of all the low-concentration oxides. In (a) and (b), there is evidence to suggest that the spheres are hollow with a porous inside. This is a  consequence of sphere-shaped droplets having the time to dry and decompose before they hit the surface. When heated, the solvent will evaporate leaving voids in the droplet. Then an outer shell will be formed from the decomposed oxides while gas trapped inside the sphere will gather to the central cavity and expand.
+Looking closely at (c), the sphere here backs up the theory of droplets being covered in crystallites. Here, a sphere of 10 \si{\micro m} is partially covered in particles around \SI{1}{\micro m}. Furthermore, there is another shape connected to it. This looks more like particles which have hit the surface first, then formed an island by coalescing with other adsorbed particles. 
+
+\subsubsection{A note on droplet-particle size}
+Unfortunately, this technique does not offer an easy way to witness the process from droplet exiting the injector-tube, followed by the solvent evaporating and nitrate decomposing to particles striking the surface and adhering. From the SEM images, however, it looks as though the droplets entering the chamber (round-bottom flask) are varying quite a lot in size and that large droplets result in large (5-10 \si{\micro m}) hollow spheres and small droplets result in small (around 1 \si{\micro m}) hollow spheres. However, there must be some particles that do not form spheres, but rather comes crashing down on the surface to form the observed islands. These might originate from even larger droplets than the ones forming large spheres, or some intermediate-sised droplet in the range between droplets forming spheres and droplets forming crystallites.
+
+\begin{figure}[ht]
+    \centering
+	\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/Kule-MO-a}\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/Kule-MO-b} \\
+	\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/Kule-LMO}\includegraphics[width=0.5\textwidth,keepaspectratio]{uploads/Kule-LNMO}
+	\caption{SEM images showing spherical-shaped particles for the low-concentration oxides \ce{MnO2} (a,b), LMO (c) and LNMO (d). Images a-c) are from steel substrates. Image d) is from a glass substrate. The hollow spheres are formed as a result of droplets decomposing and drying close to the surface. The scale bar is 50 \si{\micro m} for a) and d) and 10 \si{\micro m} for b) and c).}
+	\label{fig:Kule}
+\end{figure}
+
+\newpage
+\subsubsection{Agglomerates}
+Figure \ref{fig:formasjon} shows one of the mentioned islands from a sample of 2.50 M LNMO. These may result from an ensemble of particles interacting on the surface and agglomerating. Another possibility is that these crystals were formed before reaching the substrate, for instance by sticking to the tip of the injector-tube and growing in size until it detaches and falls down to the substrate. Based on the compositional analysis, the at.\% matches that of \ce{LiNi_{0.5}Mn_{1.5}O4} with some excess Mn and O. This leads to a belief that the agglomerate is mainly composed of LNMO and some crystallised derivative of manganese oxide.
+\begin{figure}[ht]
+    \centering
+	\includegraphics[width=0.85\textwidth,keepaspectratio]{uploads/LNMO-hoy-formasjon} \\ \includegraphics[width=0.85\textwidth,keepaspectratio]{uploads/LNMO-EDS-formasjon}
+	\caption{Agglomerates seen in 2.50 M LNMO probably resulting from an ensemble of particles interacting and agglomerating on the surface or on the tip of the injector-tube. The agglomerate seems to be mainly composed of LNMO.}
+	\label{fig:formasjon}
+\end{figure}
 
 
 
@@ -47,42 +179,184 @@ Put SEM and XRD together?
 
 
 
-\subsubsection{\ce{LiMn_{1.5}Ni_{0.5}O4} - LNMO}
 
-
-
-
-\subsection{Electrochemical analysis}
+\FloatBarrier
+\subsection{XRD}
+The structures of the synthesised oxides were explored by XRD, and the obtained diffractograms are presented in the following section.  
 
 \subsubsection{\ce{MnO2}}
+As quite evident in the diffractogram presented in figure \ref{fig:XRD_MnO2}, the oxide synthesised by injecting \ce{Mn(NO3)2.5H2O} into the system at a temperature of $350-400 \degree$C and a pressure between 5 and 8 \si{mbar} is \ce{Mn2O3} and not the desired \ce{MnO2}. It could be tempting to say that there is some evidence of the (110) reflection of \ce{MnO2} at 28.703 \degree coresponding to the tetragonal phase of \ce{MnO2} with space group $P4_2/mnm$. However, the signal to noise ratio is too high to take this as a valid argument.
+Instead, the diffractogram turns out to be a good fit for \ce{Mn2O3} bixbyitte with space group Ia-3. 
+For simplicity, the \ce{Mn2O3} will mostly be referred to as \ce{MnO2} throughout the thesis since this was the believed structure when performing the electrochemical analyses. 
+Comparison of the diffractograms from the oxide at different concentrations show the 0.25 M to be a better fit than 2.50 M, since the latter contains more noise and lacks several of the peaks present at the low-concentration oxide.
 
-
-
-\subsubsection{\ce{LiMn2O4}}
-
-
-\subsubsection{\ce{LiMn_{1.5}Ni_{0.5}O4} - LNMO}
-
-
-\subsection{\textbf{OR}}
-
-\subsubsection{Impedance}
-
-\subsubsection{Cyclic Voltametry}
-
-\subsubsection{Galvnostatic Cycling}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth, keepaspectratio]{uploads/MnO2.jpg}
+    \caption{XRD of the oxide thought to be \ce{MnO2}. Analysis shows this to be quite a good match for \ce{Mn2O3} Bixbyite. }
+    \label{fig:XRD_MnO2}
+\end{figure}
 
 
 
 
+\FloatBarrier
+\subsubsection{LMO}
+The diffractogram of LMO seen in figure \ref{fig:XRD_LMO} confirms that cubic LMO with space group Fd-3m is present. However, for 0.25 M LMO (red), there is also evidence of \ce{Mn2O3} bixbyite and some unidentified phase. Several attempts were made to identify this John Doe phase using the EVA software. When no derivative of manganese presented themselves as a solution, various compounds containing Ni, C and Si in addition to the expected Li, Mn and O were tested, thinking the signal could result from non-decomposed nitrates, impurities stemming from carbon or the Si present in the Si gel used to tighten the connectors. Unfortunately, none prevailed.
+Interestingly, the peaks of bixbyite disappears from 0.25 M LMO to 2.50 M LMO (green). At the same time, the peaks from LMO also seems to diminish, leaving two unidentified peaks. 
+
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth, keepaspectratio]{uploads/LMO.jpg}
+    \caption{XRD of LMO. Analysis confirms that LMO is present, together with bixbyite for 0.25 M LMO and an unidentified phase for both the samples.}
+    \label{fig:XRD_LMO}
+\end{figure}
+
+\FloatBarrier
+\subsubsection{LNMO}
+Finally, the diffractogram for LNMO, presented in figure \ref{fig:XRD_LNMO} exhibits a good correlation with literature intensities of cubic LNMO (Fd-3m). As expected, both LNMO samples show strong spinel structure peaks at $2\theta = 18.75\degree, 36.40\degree, 44.32\degree \text{ and } 64.44\degree$ and shows good correspondence to the XRD spherical LNMO presented in \cite{LNMO}. Interestingly, the same unidentified peaks found in LMO are also present here, to a great extent in 0.25 M (red) and less in 2.50 M (green) LNMO. Also worth noting are the broad peaks corresponding to LNMO. Broad peaks are an indication of very small particles, which backs up the presence of crystallites seen in the SEM. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth, keepaspectratio]{uploads/LNMO.jpg}
+    \caption{XRD of LNMO. The broad peaks correlate with literature intensities of LNMO and correspond to a small particle size, supporting the findings from the SEM. The same unidentified peaks are present in LMO and here.}
+    \label{fig:XRD_LNMO}
+\end{figure}
 
 
 
 
+\FloatBarrier   
+\section{Electrochemical analysis}
+The following section will deal with the electrochemical aspects of the coin cells assembled with the as-deposited oxides as the cathode, explained in section 3.6. Both cathodes made from 0.25 M and 2.5 M of precursors were tested and are presented herein.
 
 
+\subsection{Electric Impedance Spectroscopy}
+Figure \ref{fig:Impedance} shows a snippet of the Nyquist plot used to present the EIS measurements performed on all the different cells and compares them with two commercial LMO cells, termed 'Ref LMO'. The linear contribution extrapolated to the x-axis gives an indication of the internal resistance in each battery, not accounting for electrode polarization. Common for all the synthesised cells is a lower extrapolated value than the commercial cells, indicating a generally lower internal resistance in cells with cathodes produced by liquid injection compared to commercial. This is a clear improvement probably resulting from the lack of a binder. Carbon is often added to the polymeric binders commonly used in order to increase its conductivity. Nonetheless, the absence of a binder is preferred over a carbonaceous binder.
 
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.67]{el-uploads/Impedans-extr.png}
+    \caption{A Nyquist plot showing extrapolated EIS results compared to two commercial LMO battery cells. The cells using cathodes synthesised by liquid injection show a lower internal resistance than the commercial cells. The reference plots are reproduced with kind permission from Katja S.S. Sverdlilje.}
+    \label{fig:Impedance}
+\end{figure}
+
+
+\FloatBarrier
+\subsection{Cyclic Voltametry}
+CV is quite versatile, supplying both information regarding the occurrence of chemical reactions during charge-discharge and the capacity of the battery.
+Figure \ref{fig:CV_cyc2} displays the second cycle for the different cells. Cycle 2 is chosen due to the formation of SEI during the first cycle.
+
+\subparagraph{Figure \ref{fig:CV_cyc2} (a) and (b)} \hspace{-1em} shows the two different concentrations of the oxides thought to be \ce{MnO2}, but in reality is \ce{Mn2O3}. The two curves present in (a) come from two different cathodes synthesised in the same process of liquid injection. For all the curves, there is a peak at 4 V. Looking closely at the green curve, there might in fact be two peaks that are smeared and thus look like one. In the literature, this peak is often credited to the redox reaction of \ce{Mn^{4+}/Mn^{3+}} which might indicate that there are in fact traces of \ce{MnO2} in the cathode \cite{LNMO}.
+
+The apparent peak at 4.5 V arises since this is the point where the scanned potential is turned around. The peak is an indication of capacitance - charge is accumulated on the surface causing the current to increase with the applied potential until the scan direction is reversed. 
+
+Further in (a), the curves are mostly composed of a positive current. This could originate from several factors. Since the mass of the active material of the cathode is very small, there might be a leakage current which turns out to be significant when compared to the charge-discharge currents. Another possible explanation for the positive current is some reaction between Mn and the electrolyte taking place at the electrode-electrolyte interface. Of the two, the leakage current seems more plausible.
+
+Moreover, due to the large uncertainty in recorded masses for these cathodes, the currents displayed on the y-axis of (a) and (c) are not to be trusted.
+There is not much evidence of chemical reactions occurring at all on discharge for either of the curves in (a) and (b) except a tiny bump at 4.1 V indicating capacative behaviour.
+
+\subparagraph{In figure \ref{fig:CV_cyc2} (c) and (d),} \hspace{-1em} the different concentrations of LMO are presented. In (c), the whole curve is above 0 mA/g. Again, this may be due to erroneous mass, leakage current and/or chemical reactions on electrode-electrolyte interface. Either way, the curve shows a broad peak around 4 V. Similar to (a) and (b), the peak may in fact be composed of two peaks, as seems likely on discharge. In that case, the peaks correspond to the deintercalation/intercalation of \ce{Li+} \cite{nano_LMO}. There is also evidence of capacitive characteristics for all the curves in both (c) and (d), especially in the green curve of (d) corresponding to cathode 31. Due to this, the cathode was cycled at different scan speeds as further discussed later in this section.
+
+Similar to (c), the blue curve in (d) shows peaks at 4 and 4.15 V upon both charge and discharge, again corresponding to the two-step spinel reaction \cite{LNMO}.
+
+\subparagraph{Lastly, figure \ref{fig:CV_cyc2} (e) and (f)} \hspace{-1em} displays cycle 2 from the results of cycling LNMO at the different concentrations. In (e), both curves display a peak around 4.15 V, but there is a huge height difference. There are also similar peaks at 4.7 V. This peak is present in the curve for cathode 52 (green) in (f) as well, but rather absent with cathode 51 (red). Instead, this curve shows a peak at 5 V on charge and 4.5 V on discharge. An increased peak-to-peak separation is evidence of higher resistance in the battery \cite{2_CV}. At the same time, the increased area under the curve indicates a higher capacity.
+
+The peak at 4.7 V corresponds to \ce{Ni^{2+}/Ni^{4+}} while the peak around 4.0 V, similar to LMO and \ce{MnO2}, originates from the side reaction of \ce{Mn^{4+}/Mn^{3+}}. As described in \cite{LNMO}, homogeneous metal ion ordering results in a larger 4.7 V peak, while a more non-uniform distribution of Ni and Mn leads to a larger peak at 4V. Thus, cathode 24 appears to have a highly non-uniform distribution of Mn and Ni.
+
+
+\begin{figure}[ht]
+    \centering
+    \resizebox{\linewidth}{!}{
+    \begin{subfigure}{0.5\linewidth}
+    \includegraphics[height=7cm, keepaspectratio]{el-uploads/CV-MnO2-lav.png}
+    \caption{\ce{MnO2} at low concentration.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}{0.5\linewidth}
+    \includegraphics[height=7cm, keepaspectratio]{el-uploads/CV-Mno2-hoy.png}
+    \caption{\ce{MnO2} at high concentration.}
+    \end{subfigure} }\\
+    \resizebox{\linewidth}{!}{
+    \begin{subfigure}{0.5\textwidth}
+    \includegraphics[height=7cm, keepaspectratio]{el-uploads/CV-LMO-lav.png}
+    \caption{LMO at low concentration.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}{0.5\linewidth}
+    \includegraphics[height=7cm, keepaspectratio]{el-uploads/CV-LMO-hoy.png}
+    \caption{LMO at high concentration.}
+    \end{subfigure} } \\
+    \resizebox{\linewidth}{!}{
+    \begin{subfigure}{0.5\linewidth}
+    \includegraphics[height=7cm, keepaspectratio]{el-uploads/CV-LNMO-lav.png}
+    \caption{LNMO at low concentration.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}{0.5\textwidth}
+    \includegraphics[height=7cm, keepaspectratio]{el-uploads/CV-LNMO-hoy.png}
+    \caption{LNMO at high concentration.}
+    \end{subfigure} } \\
+    \caption{Cycle 2 of CV performed for the different concentrations and electrode materials. The figure contains cycles of all the different synthesised oxides at high and low concentration of cations in the precursor solution.}
+    \label{fig:CV_cyc2}
+\end{figure}
+
+\FloatBarrier
+
+In order to further investigate the behaviour seen in figure \ref{fig:CV_cyc2} (e), figure \ref{fig:CV_LNMO} displays all the cycles obtained from the CV of the cells containing cathodes 21 and 24. By looking at the first cycles for both (a) and (b), it is evident that the peak at 4 V is diminishing through the cycles until it disappears somewhere around the 5th cycle in (a) and 9th cycle in (b). It appears as though there is LMO present on the cathodes which transitions to LNMO during cycling, leaving only the peak at 4.7. The observed behaviour may also be due to the formation of an SEI. Often, the SEI is formed during the first one or two cycles. Sometimes, however, the SEI is formed over more cycles, which could be the case here.
+
+
+\begin{figure}[ht]
+    \centering
+    \resizebox{\linewidth}{!}{
+    \begin{subfigure}{0.5\linewidth}
+    \includegraphics[height=6.8cm, keepaspectratio]{el-uploads/eh21-LNMO-CV.png}
+    \caption{Cathode 21.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}{0.5\linewidth}
+    \centering
+    \includegraphics[height=6.8cm, keepaspectratio]{el-uploads/eh24-LNMO-CV.png}
+    \caption{Cathode 24.}
+    \end{subfigure} }\\
+    \caption{Full CV of LNMO corresponding to the cycles seen in figure \ref{fig:CV_cyc2} (e). Peaks that correspond to LMO or SEI formation are present for the first cycles, but diminishes after about 5 cycles (a) and 9 cycles (b).}
+    \label{fig:CV_LNMO}
+\end{figure}    
+
+\FloatBarrier
+
+\subsubsection{Capacitor}
+The scan rate of the CV controls how fast the applied potential is scanned.The cell seen in figure \ref{fig:CV_cyc2} (d) was tested at different scan rates (mV/s) to see which effect this had. As can be seen in figure \ref{fig:capacitor}, this cell is behaving more and more as a capacitor with the increased cycling speed. The capacitor-like behaviour is evident from the shape shifting from the classical duck-shape to a rectangular shape, indicating the accumulation of charge on the surface of the cell on charge and dispersion of this charge upon discharge. There is no evidence of any chemical reaction taking place, and thus this is not a functional battery.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[height=8cm,keepaspectratio]{el-uploads/CV-LMO-dEdt.png}
+    \caption{High concentration LMO run at different cycling speeds. This cell is clearly operating as a capacitor, especially at high scan rates.}
+    \label{fig:capacitor}
+\end{figure}
+
+
+\FloatBarrier
+\subsection{Galvnostatic Cycling}
+Figures \ref{fig:GC_Mn} and \ref{fig:GC_LMO} show the results from galvanostatic cycling of the high-concentration cathodes for \ce{MnO2} and LMO, respectively. Ideally, the same capacity obtained on charge should be obtained on discharge. The lines crossing the y-axis on 4.5 V shows the specific capacity on charge, while the lines crossing at the lower x-axis supplies the specific capacity on discharge. For \ce{MnO2}, the specific capacity is not notably high. However, the plot suggests that most of the energy entering the battery on charging is also leaving the battery on discharge. Still, there are no apparent plateaus corresponding to chemical reactions occurring, thus suggesting this cell to be a capacitor.
+The same is not true for LMO. Here, about 60-70 \% capacity is lost during discharge, but there are traces of plateaus around 4.15 V corresponding to one of the peaks evident in the CV. Thus, this cell seems to be a functional battery cell, albeit not a very good one. 
+
+An attempt was made to measure GC of a LNMO cathode as well. However, probably due to surface polarisation, these measurements did not provide any readable data.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.45]{el-uploads/eh42-MnO2-GC.png}
+    \caption{GC of \ce{MnO2}(\ce{Mn2O3}). Due to a lack of plateaus, this cathode appears to be purely capacitive.}
+    \label{fig:GC_Mn}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.45]{el-uploads/eh33-LMO-GC.png}
+    \caption{GC of LMO. This plot shows plateaus at 4.15 V corresponding to one of the observed peaks in the CV plots. This cathode appears to be electrochemical, albeit with a poor discharge capacity.}
+    \label{fig:GC_LMO}
+\end{figure}
 
 
 

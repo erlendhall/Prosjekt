@@ -26,10 +26,11 @@
   \@ifundefined{hypersetup}{}{\hypersetup{pageanchor=false}}
   \setkeys{duo@keys}{#1}
   \duo@page@i
+  \duo@page@iv
   \@ifundefined{duo@thesisname@eng}
-    {\if@twoside \duo@blankpage \fi}
+    %{\if@twoside \duo@blankpage \fi}
     % {\duo@page@ii \duo@page@iii
-    {\duo@page@iv}
+    %{\duo@page@iv}
   \setcounter{page}{1}
   \@ifundefined{hypersetup}{}{\hypersetup{pageanchor=true}}
 }}

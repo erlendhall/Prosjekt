@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.5 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,36 +18,60 @@
 
 
 \refsection{0}
-  \sortlist{none}{none}
+  \datalist[entry]{none/global//global/global}
     \entry{gandrud}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=d8f9de362cb89cb9e3525578e7b57782}{Gandrud}{G\bibinitperiod}{Knut\bibnamedelima Bjarne}{K\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=d8f9de362cb89cb9e3525578e7b57782}{%
+           family={Gandrud},
+           familyi={G\bibinitperiod},
+           given={Knut\bibnamedelima Bjarne},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
       \list{institution}{1}{%
         {UiO}%
       }
       \strng{namehash}{d8f9de362cb89cb9e3525578e7b57782}
       \strng{fullhash}{d8f9de362cb89cb9e3525578e7b57782}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{d8f9de362cb89cb9e3525578e7b57782}
+      \strng{authorbibnamehash}{d8f9de362cb89cb9e3525578e7b57782}
+      \strng{authornamehash}{d8f9de362cb89cb9e3525578e7b57782}
+      \strng{authorfullhash}{d8f9de362cb89cb9e3525578e7b57782}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Thin film materials for Li-ion batteries made by atomic layer deposition}
       \field{type}{phdthesis}
       \field{year}{2014}
-      \field{pages}{114}
-      \range{pages}{1}
+      \field{pages}{3\bibrangedash 10\bibrangessep 37\bibrangedash 44}
+      \range{pages}{16}
     \endentry
     \entry{costcath}{article}{}
       \name{author}{3}{}{%
-        {{hash=1482f13a47428d0f3bde9ea2a7995da2}{Zaghib}{Z\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
-        {{hash=79bbd5d02911287b1ebeed306e589f08}{Mauger}{M\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=787949217157c549532fe522a75508ef}{Julien}{J\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=1482f13a47428d0f3bde9ea2a7995da2}{%
+           family={Zaghib},
+           familyi={Z\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=79bbd5d02911287b1ebeed306e589f08}{%
+           family={Mauger},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=787949217157c549532fe522a75508ef}{%
+           family={Julien},
+           familyi={J\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
       }
       \strng{namehash}{7e774820c6908d4281294571a18f233c}
       \strng{fullhash}{7e774820c6908d4281294571a18f233c}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{7e774820c6908d4281294571a18f233c}
+      \strng{authorbibnamehash}{7e774820c6908d4281294571a18f233c}
+      \strng{authornamehash}{7e774820c6908d4281294571a18f233c}
+      \strng{authorfullhash}{7e774820c6908d4281294571a18f233c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Solid State Electrochemistry}
@@ -55,21 +79,42 @@
       \field{title}{Overview of olivines in lithium batteries for green transportation and energy storage}
       \field{volume}{16}
       \field{year}{2012}
+      \field{dateera}{ce}
       \field{pages}{835\bibrangedash 845}
       \range{pages}{11}
       \keyw{{HEV},{PEV},{EV},energy storage,Li-ion batteries,Olivine}
     \endentry
     \entry{1_rev_liion}{article}{}
       \name{author}{4}{}{%
-        {{hash=6761049c65b973ddd81ece00379c2fc8}{Nitta}{N\bibinitperiod}{Naoki}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=da76b27ad89bba939f023f33e727bb6b}{Wu}{W\bibinitperiod}{Feixiang}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=d5b3417d50434c96565289713a622287}{Lee}{L\bibinitperiod}{Jung\bibnamedelima Tae}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=05fcd8ab018695b8fff50d99b001fd5a}{Yushin}{Y\bibinitperiod}{Gleb}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=6761049c65b973ddd81ece00379c2fc8}{%
+           family={Nitta},
+           familyi={N\bibinitperiod},
+           given={Naoki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=da76b27ad89bba939f023f33e727bb6b}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Feixiang},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d5b3417d50434c96565289713a622287}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jung\bibnamedelima Tae},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=05fcd8ab018695b8fff50d99b001fd5a}{%
+           family={Yushin},
+           familyi={Y\bibinitperiod},
+           given={Gleb},
+           giveni={G\bibinitperiod}}}%
       }
       \strng{namehash}{b143f01b91f0a25f989f0778ff58e032}
       \strng{fullhash}{67e526719224b8a23ac183ce531b0684}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{67e526719224b8a23ac183ce531b0684}
+      \strng{authorbibnamehash}{67e526719224b8a23ac183ce531b0684}
+      \strng{authornamehash}{b143f01b91f0a25f989f0778ff58e032}
+      \strng{authorfullhash}{67e526719224b8a23ac183ce531b0684}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Materials Today}
@@ -77,12 +122,17 @@
       \field{title}{Li-ion battery materials: present and future}
       \field{volume}{18}
       \field{year}{2015}
+      \field{dateera}{ce}
       \field{pages}{252\bibrangedash 264}
       \range{pages}{13}
     \endentry
     \entry{1_volta}{book}{}
       \name{author}{1}{}{%
-        {{hash=bdf568785967709b956529a2ecb0f9b9}{Dibner}{D\bibinitperiod}{Bern}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=bdf568785967709b956529a2ecb0f9b9}{%
+           family={Dibner},
+           familyi={D\bibinitperiod},
+           given={Bern},
+           giveni={B\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {eng}%
@@ -95,8 +145,12 @@
       }
       \strng{namehash}{bdf568785967709b956529a2ecb0f9b9}
       \strng{fullhash}{bdf568785967709b956529a2ecb0f9b9}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{bdf568785967709b956529a2ecb0f9b9}
+      \strng{authorbibnamehash}{bdf568785967709b956529a2ecb0f9b9}
+      \strng{authornamehash}{bdf568785967709b956529a2ecb0f9b9}
+      \strng{authorfullhash}{bdf568785967709b956529a2ecb0f9b9}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{series}{Immortals of science}
@@ -106,13 +160,25 @@
     \endentry
     \entry{1_yazami}{article}{}
       \name{author}{2}{}{%
-        {{hash=05a9d52d6650d3613a338112eba7d8f9}{Yazami}{Y\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=aa3d387d12a1f50b769603dc48eb94fd}{Touzain}{T\bibinitperiod}{Ph.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=05a9d52d6650d3613a338112eba7d8f9}{%
+           family={Yazami},
+           familyi={Y\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=aa3d387d12a1f50b769603dc48eb94fd}{%
+           family={Touzain},
+           familyi={T\bibinitperiod},
+           given={Ph.},
+           giveni={P\bibinitperiod}}}%
       }
       \strng{namehash}{e5b6df59d6da740201f8fc7cc9b4e9a1}
       \strng{fullhash}{e5b6df59d6da740201f8fc7cc9b4e9a1}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{e5b6df59d6da740201f8fc7cc9b4e9a1}
+      \strng{authorbibnamehash}{e5b6df59d6da740201f8fc7cc9b4e9a1}
+      \strng{authornamehash}{e5b6df59d6da740201f8fc7cc9b4e9a1}
+      \strng{authorfullhash}{e5b6df59d6da740201f8fc7cc9b4e9a1}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Power Sources}
@@ -125,13 +191,25 @@
     \endentry
     \entry{1_hist}{article}{}
       \name{author}{2}{}{%
-        {{hash=737e715e7259c7966b16f4c80677ff0a}{Moshtev}{M\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=b25b51b95a7d8f03a1ae99d393caef2b}{Johnson}{J\bibinitperiod}{B}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=737e715e7259c7966b16f4c80677ff0a}{%
+           family={Moshtev},
+           familyi={M\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b25b51b95a7d8f03a1ae99d393caef2b}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
       }
       \strng{namehash}{df8d7adfefb8a70f5e7e893eeac2b72a}
       \strng{fullhash}{df8d7adfefb8a70f5e7e893eeac2b72a}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{df8d7adfefb8a70f5e7e893eeac2b72a}
+      \strng{authorbibnamehash}{df8d7adfefb8a70f5e7e893eeac2b72a}
+      \strng{authornamehash}{df8d7adfefb8a70f5e7e893eeac2b72a}
+      \strng{authorfullhash}{df8d7adfefb8a70f5e7e893eeac2b72a}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Power Sources}
@@ -145,8 +223,16 @@
     \endentry
     \entry{Goodenough2013}{article}{}
       \name{author}{2}{}{%
-        {{hash=f803a68bc39364b640e1baca36098cfc}{Goodenough}{G\bibinitperiod}{John\bibnamedelima B}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=04358337c101dfcdbff29618cb1d500f}{Park}{P\bibinitperiod}{Kyu-Sung}{K\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=f803a68bc39364b640e1baca36098cfc}{%
+           family={Goodenough},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=04358337c101dfcdbff29618cb1d500f}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Kyu-Sung},
+           giveni={K\bibinithyphendelim S\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Washington, DC :}%
@@ -156,8 +242,12 @@
       }
       \strng{namehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
       \strng{fullhash}{9431765a1b5b6dbaff14fe3ce0d339a7}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \strng{authorbibnamehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \strng{authornamehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \strng{authorfullhash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the American Chemical Society.}
@@ -168,18 +258,637 @@
       \field{pages}{1167\bibrangedash 1176}
       \range{pages}{10}
     \endentry
+    \entry{1_LIB_birth}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6be1606c25d22e8794b000cce0c40f07}{%
+           family={Yoshino},
+           familyi={Y\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Weinheim}%
+      }
+      \list{publisher}{1}{%
+        {WILEY‐VCH Verlag}%
+      }
+      \strng{namehash}{6be1606c25d22e8794b000cce0c40f07}
+      \strng{fullhash}{6be1606c25d22e8794b000cce0c40f07}
+      \strng{bibnamehash}{6be1606c25d22e8794b000cce0c40f07}
+      \strng{authorbibnamehash}{6be1606c25d22e8794b000cce0c40f07}
+      \strng{authornamehash}{6be1606c25d22e8794b000cce0c40f07}
+      \strng{authorfullhash}{6be1606c25d22e8794b000cce0c40f07}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{number}{24}
+      \field{title}{The Birth of the Lithium‐Ion Battery}
+      \field{volume}{51}
+      \field{year}{2012}
+      \field{pages}{5798\bibrangedash 5800}
+      \range{pages}{3}
+    \endentry
+    \entry{VIKSTROM}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e7f5b52e2e127a35529f1a4d1147f145}{%
+           family={Vikström},
+           familyi={V\bibinitperiod},
+           given={Hanna},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d96197fdff2039e821347ba08797cb11}{%
+           family={Davidsson},
+           familyi={D\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7b7f56beaedf608076240e3183752091}{%
+           family={Höök},
+           familyi={H\bibinitperiod},
+           given={Mikael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f548ce9c7db4003e90a66239cf13c251}
+      \strng{fullhash}{f548ce9c7db4003e90a66239cf13c251}
+      \strng{bibnamehash}{f548ce9c7db4003e90a66239cf13c251}
+      \strng{authorbibnamehash}{f548ce9c7db4003e90a66239cf13c251}
+      \strng{authornamehash}{f548ce9c7db4003e90a66239cf13c251}
+      \strng{authorfullhash}{f548ce9c7db4003e90a66239cf13c251}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Energy}
+      \field{title}{Lithium availability and future production outlooks}
+      \field{volume}{110}
+      \field{year}{2013}
+      \field{pages}{252\bibrangedash 266}
+      \range{pages}{15}
+    \endentry
+    \entry{Gruber}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e97d26bd0a3fa7afab8c097cd4b86f25}{%
+           family={Gruber},
+           familyi={G\bibinitperiod},
+           given={Pw},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0c38cf1ef35c679ab821d636ecd350c5}{%
+           family={Medina},
+           familyi={M\bibinitperiod},
+           given={PA},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7a0d2dbd25e299af2e4abd24eff5250a}{%
+           family={Keoleian},
+           familyi={K\bibinitperiod},
+           given={Ga},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b65a298b6e5a0f3fee195a6d8b3007e2}{%
+           family={Kesler},
+           familyi={K\bibinitperiod},
+           given={Se},
+           giveni={S\bibinitperiod}}}%
+        {{hash=395507e35f2bfed693ab66671cd2bf7f}{%
+           family={Everson},
+           familyi={E\bibinitperiod},
+           given={MP},
+           giveni={M\bibinitperiod}}}%
+        {{hash=62569ed5d47addc6eabe1efa8190dc65}{%
+           family={Wallington},
+           familyi={W\bibinitperiod},
+           given={Tj},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {WILEY-BLACKWELL}%
+      }
+      \strng{namehash}{7eda93d9f5e9f55b6dfbc7e6c350679b}
+      \strng{fullhash}{4f48c08082caf1047d696c79ef72b7e7}
+      \strng{bibnamehash}{4f48c08082caf1047d696c79ef72b7e7}
+      \strng{authorbibnamehash}{4f48c08082caf1047d696c79ef72b7e7}
+      \strng{authornamehash}{7eda93d9f5e9f55b6dfbc7e6c350679b}
+      \strng{authorfullhash}{4f48c08082caf1047d696c79ef72b7e7}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal Of Industrial Ecology}
+      \field{number}{5}
+      \field{title}{Global Lithium Availability A Constraint for Electric Vehicles?}
+      \field{volume}{15}
+      \field{year}{2011}
+      \field{pages}{760\bibrangedash 775}
+      \range{pages}{16}
+    \endentry
+    \entry{Speirs}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5f296d74af2acb4830da2d5ed17981e9}{%
+           family={Speirs},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d0961f453676c1c3147eecbceab7e3fb}{%
+           family={Contestabile},
+           familyi={C\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0447ee424140ae88797aba6b61ad2fb6}{%
+           family={Houari},
+           familyi={H\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=24999ca0895d551e3c8c8c21a44c0312}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {PERGAMON-ELSEVIER SCIENCE LTD}%
+      }
+      \strng{namehash}{ee10de7fa42b258e7e049707594c422c}
+      \strng{fullhash}{508815d2abe0b3975aa18908e935ecac}
+      \strng{bibnamehash}{508815d2abe0b3975aa18908e935ecac}
+      \strng{authorbibnamehash}{508815d2abe0b3975aa18908e935ecac}
+      \strng{authornamehash}{ee10de7fa42b258e7e049707594c422c}
+      \strng{authorfullhash}{508815d2abe0b3975aa18908e935ecac}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable \& Sustainable Energy Reviews}
+      \field{number}{C}
+      \field{title}{The future of lithium availability for electric vehicle batteries}
+      \field{volume}{35}
+      \field{year}{2014}
+      \field{pages}{183\bibrangedash 193}
+      \range{pages}{11}
+    \endentry
+    \entry{1_amnesty}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b9dbfa291fc80bdc05e13f1a42767908}{%
+           family={Sanderson},
+           familyi={S\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+        {{hash=36471daa788c015af039badbbfcfcc25}{%
+           family={Cornish},
+           familyi={C\bibinitperiod},
+           given={Chloe},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9fdca13d04dad9d788081d14f2e61ca}
+      \strng{fullhash}{a9fdca13d04dad9d788081d14f2e61ca}
+      \strng{bibnamehash}{a9fdca13d04dad9d788081d14f2e61ca}
+      \strng{authorbibnamehash}{a9fdca13d04dad9d788081d14f2e61ca}
+      \strng{authornamehash}{a9fdca13d04dad9d788081d14f2e61ca}
+      \strng{authorfullhash}{a9fdca13d04dad9d788081d14f2e61ca}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{[Accessed on 1 June 2018]}
+      \field{journaltitle}{Financial Times}
+      \field{month}{11}
+      \field{title}{Amnesty warns on use of child labour in cobalt mining}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.ft.com/content/bec64762-c923-11e7-ab18-7a9fb7d6163e
+      \endverb
+      \verb{url}
+      \verb https://www.ft.com/content/bec64762-c923-11e7-ab18-7a9fb7d6163e
+      \endverb
+    \endentry
+    \entry{1_Mnox_study}{article}{}
+      \name{author}{8}{}{%
+        {{hash=efb4da029c6707c9d9a826315da84f1a}{%
+           family={Augustin},
+           familyi={A\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=949f7530634f420b16a550c4335661bd}{%
+           family={Fenske},
+           familyi={F\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f2777d19d51814bfbf6059ef610ae6fe}{%
+           family={Bardenhagen},
+           familyi={B\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d5160a0cbe9d80e971d66c231a6f484d}{%
+           family={Westphal},
+           familyi={W\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cf17f6cb3a593452046b6030370deb8a}{%
+           family={Knipper},
+           familyi={K\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e0dc67e6a0604b34ec53f9fb012bf5e}{%
+           family={Plaggenborg},
+           familyi={P\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3af85cc846db2e8c949fc22df1cdce20}{%
+           family={Kolny-Olesiak},
+           familyi={K\bibinithyphendelim O\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ba80afd260f6692c978569b9bf7d2a35}{%
+           family={Parisi},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {BEILSTEIN-INSTITUT}%
+      }
+      \strng{namehash}{ff40054e1be7b1d48cd8e7d80960df3d}
+      \strng{fullhash}{b152fb17c3fe174e5f823208e9579355}
+      \strng{bibnamehash}{b152fb17c3fe174e5f823208e9579355}
+      \strng{authorbibnamehash}{b152fb17c3fe174e5f823208e9579355}
+      \strng{authornamehash}{ff40054e1be7b1d48cd8e7d80960df3d}
+      \strng{authorfullhash}{b152fb17c3fe174e5f823208e9579355}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Beilstein Journal Of Nanotechnology}
+      \field{number}{1}
+      \field{title}{Manganese oxide phases and morphologies: A study on calcination temperature and atmospheric dependence}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{47\bibrangedash 59}
+      \range{pages}{13}
+    \endentry
+    \entry{1_free_MnO2}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7a348c713f2fd9e394029c73f4f8313f}{%
+           family={Özcan},
+           familyi={Ö\bibinitperiod},
+           given={Şeyma},
+           giveni={Ş\bibinitperiod}}}%
+        {{hash=519f93019ada93eb3c66dddc168b9619}{%
+           family={Güler},
+           familyi={G\bibinitperiod},
+           given={Aslıhan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f961230491af396ad51a28682c71d523}{%
+           family={Cetinkaya},
+           familyi={C\bibinitperiod},
+           given={Tugrul},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5e482ddb28d56b8dd132d4f3a4d8ef2a}{%
+           family={Guler},
+           familyi={G\bibinitperiod},
+           given={Mehmet\bibnamedelima O.},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=1aa2d7fc2b96045a6e0ecdb0edfa22b2}{%
+           family={Akbulut},
+           familyi={A\bibinitperiod},
+           given={Hatem},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Beilstein-Institut}%
+      }
+      \strng{namehash}{7822deeb87b2a37a28163d4eb3693a70}
+      \strng{fullhash}{ac5df0bc617f1f428a8ee0a7ebc9202c}
+      \strng{bibnamehash}{ac5df0bc617f1f428a8ee0a7ebc9202c}
+      \strng{authorbibnamehash}{ac5df0bc617f1f428a8ee0a7ebc9202c}
+      \strng{authornamehash}{7822deeb87b2a37a28163d4eb3693a70}
+      \strng{authorfullhash}{ac5df0bc617f1f428a8ee0a7ebc9202c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{1}
+      \field{title}{Freestanding graphene/\ce{MnO2} cathodes for Li-ion batteries}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{1932\bibrangedash 1938}
+      \range{pages}{7}
+    \endentry
+    \entry{1_amorph_MnO2}{article}{}
+      \name{author}{10}{}{%
+        {{hash=46d113a659d0d01a000fb91325fb9687}{%
+           family={Yirong},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=fe6bc778c2b4f965c677b9c0ee3e67c9}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod}}}%
+        {{hash=168f9e8cd13b025b4df09b0cf7be876f}{%
+           family={Tong},
+           familyi={T\bibinitperiod}}}%
+        {{hash=ef6bf3fd02c2c92bf0e156d4b5b818ac}{%
+           family={Chen},
+           familyi={C\bibinitperiod}}}%
+        {{hash=f9a0da1f593f65e07c8dc8f27ad1f705}{%
+           family={Junxi},
+           familyi={J\bibinitperiod}}}%
+        {{hash=96641e4a5a09e69b32236adbdfd55407}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod}}}%
+        {{hash=7e170de074e1630348aec1364ac26c3d}{%
+           family={Yao},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=07d8568fd7de797aa19f0f0120ebe1a4}{%
+           family={Liu},
+           familyi={L\bibinitperiod}}}%
+        {{hash=b85815d04cec053ce6deb8021f2df1b8}{%
+           family={Ping},
+           familyi={P\bibinitperiod}}}%
+        {{hash=c960163b90d3348c2d10aa3dc204093d}{%
+           family={Ren},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{258229c13e91bee71b02e2f26b980ec0}
+      \strng{fullhash}{6ad6133057c9047981c4be3dcf5032ac}
+      \strng{bibnamehash}{6ad6133057c9047981c4be3dcf5032ac}
+      \strng{authorbibnamehash}{6ad6133057c9047981c4be3dcf5032ac}
+      \strng{authornamehash}{258229c13e91bee71b02e2f26b980ec0}
+      \strng{authorfullhash}{6ad6133057c9047981c4be3dcf5032ac}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{08}
+      \field{title}{Amorphous \ce{MnO2} as Cathode Material for Sodium-ion Batteries}
+      \field{volume}{35}
+      \field{year}{2017}
+      \field{pages}{1294\bibrangedash 1298}
+      \range{pages}{5}
+    \endentry
+    \entry{LNMO}{article}{}
+      \name{author}{4}{}{%
+        {{hash=49a19e08791a3dc09c932ff975949361}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=93ebe399de1223297e9eff970bf0d739}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Weiqing},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9d1f33a27d81d8b7d7dc2052c92e0c9b}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Bihe},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a4590932e2ed0ab2b74360937b438437}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Jinbao},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2596cf1b7b8672a865274fc6b694d5d}
+      \strng{fullhash}{ab878c762c4fddfbc69db6378ab02635}
+      \strng{bibnamehash}{ab878c762c4fddfbc69db6378ab02635}
+      \strng{authorbibnamehash}{ab878c762c4fddfbc69db6378ab02635}
+      \strng{authornamehash}{e2596cf1b7b8672a865274fc6b694d5d}
+      \strng{authorfullhash}{ab878c762c4fddfbc69db6378ab02635}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Materials Chemistry A}
+      \field{number}{39}
+      \field{title}{Porous \ce{LiNi_{0.5}Mn_{1.5}O4} sphere as 5 V cathode material for lithium ion batteries}
+      \field{type}{Journal Article}
+      \field{volume}{2}
+      \field{year}{2014}
+      \field{pages}{16434\bibrangedash 16442}
+      \range{pages}{9}
+    \endentry
+    \entry{1_additive}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d4efe1fc571bf04439dd57e7300387d1}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Jin\bibnamedelima K},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=edcd0a1a18fedc2854305b48aab0d0ac}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jong\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=574c9850cd7f61fdfc240e25c3e4a36b}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Seung\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{412518947c9982dfce5fa5746f7126e4}
+      \strng{fullhash}{412518947c9982dfce5fa5746f7126e4}
+      \strng{bibnamehash}{412518947c9982dfce5fa5746f7126e4}
+      \strng{authorbibnamehash}{412518947c9982dfce5fa5746f7126e4}
+      \strng{authornamehash}{412518947c9982dfce5fa5746f7126e4}
+      \strng{authorfullhash}{412518947c9982dfce5fa5746f7126e4}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Power Sources}
+      \field{number}{1}
+      \field{title}{Effect of carbon additive on electrochemical performance of \ce{LiCoO2} composite cathodes}
+      \field{volume}{111}
+      \field{year}{2002}
+      \field{pages}{90\bibrangedash 96}
+      \range{pages}{7}
+    \endentry
+    \entry{elmat_sprayp}{article}{}
+      \name{author}{4}{}{%
+        {{hash=16ef3f1c979c1e8f2046b59af5330d97}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Dae\bibnamedelima Soo},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=0a2ff723535a225ce98b268ca0f8fab2}{%
+           family={Ko},
+           familyi={K\bibinitperiod},
+           given={You\bibnamedelima Na},
+           giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=7d8160db652d8ddb8b75571c64dafc20}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Yun\bibnamedelima Chan},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=74da4e0c6fdd46a4281aedb620c4b50c}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Seung\bibnamedelima Bin},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{18d44b25b77bf76f14b53a3882c4c5de}
+      \strng{fullhash}{71a857a8651f27039bae3146ced6ab1c}
+      \strng{bibnamehash}{71a857a8651f27039bae3146ced6ab1c}
+      \strng{authorbibnamehash}{71a857a8651f27039bae3146ced6ab1c}
+      \strng{authornamehash}{18d44b25b77bf76f14b53a3882c4c5de}
+      \strng{authorfullhash}{71a857a8651f27039bae3146ced6ab1c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Powder Technology}
+      \field{number}{1}
+      \field{title}{Recent progress in electrode materials produced by spray pyrolysis for next-generation lithium ion batteries}
+      \field{volume}{25}
+      \field{year}{2014}
+      \field{pages}{18\bibrangedash 31}
+      \range{pages}{14}
+    \endentry
+    \entry{1_Pyrolysis_book}{inbook}{}
+      \name{author}{3}{}{%
+        {{hash=bab08af5a16f461ac134bc1cd02f5d92}{%
+           family={Kopp\bibnamedelima Alves},
+           familyi={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Annelise},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3b49e6f1b2c0216541ec67b0266ec113}{%
+           family={Bergmann},
+           familyi={B\bibinitperiod},
+           given={Carlos\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=76e663a259e168a55aef4934114766b0}{%
+           family={Berutti},
+           familyi={B\bibinitperiod},
+           given={Felipe\bibnamedelima Amorim},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{b6a0aabe21a9b26d4dd8e689c2437cff}
+      \strng{fullhash}{b6a0aabe21a9b26d4dd8e689c2437cff}
+      \strng{bibnamehash}{b6a0aabe21a9b26d4dd8e689c2437cff}
+      \strng{authorbibnamehash}{b6a0aabe21a9b26d4dd8e689c2437cff}
+      \strng{authornamehash}{b6a0aabe21a9b26d4dd8e689c2437cff}
+      \strng{authorfullhash}{b6a0aabe21a9b26d4dd8e689c2437cff}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Novel Synthesis and Characterization of Nanostructured Materials}
+      \field{title}{Spray Pyrolysis}
+      \field{year}{2013}
+      \field{pages}{23\bibrangedash 30}
+      \range{pages}{8}
+    \endentry
+    \entry{Spray_pyro}{article}{}
+      \name{author}{3}{}{%
+        {{hash=16ef3f1c979c1e8f2046b59af5330d97}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Dae\bibnamedelima Soo},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=74da4e0c6fdd46a4281aedb620c4b50c}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Seung\bibnamedelima Bin},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=7d8160db652d8ddb8b75571c64dafc20}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Yun\bibnamedelima Chan},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c62127a6266a7530a1bf265000f8188}
+      \strng{fullhash}{4c62127a6266a7530a1bf265000f8188}
+      \strng{bibnamehash}{4c62127a6266a7530a1bf265000f8188}
+      \strng{authorbibnamehash}{4c62127a6266a7530a1bf265000f8188}
+      \strng{authornamehash}{4c62127a6266a7530a1bf265000f8188}
+      \strng{authorfullhash}{4c62127a6266a7530a1bf265000f8188}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Korean Journal of Chemical Engineering}
+      \field{number}{6}
+      \field{title}{Design of particles by spray pyrolysis and recent progress in its application}
+      \field{type}{Journal Article}
+      \field{volume}{27}
+      \field{year}{2010}
+      \field{pages}{1621\bibrangedash 1645}
+      \range{pages}{25}
+    \endentry
+    \entry{adhesion}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c1c718a7e835536f24316b8940ce64ab}{%
+           family={Perednis},
+           familyi={P\bibinitperiod},
+           given={Dainius},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8590dba6eec67b0cf72c7508c8679aa3}{%
+           family={Gauckler},
+           familyi={G\bibinitperiod},
+           given={Ludwig\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{aef77e16eb977096617f4a28bbc1cfef}
+      \strng{fullhash}{aef77e16eb977096617f4a28bbc1cfef}
+      \strng{bibnamehash}{aef77e16eb977096617f4a28bbc1cfef}
+      \strng{authorbibnamehash}{aef77e16eb977096617f4a28bbc1cfef}
+      \strng{authornamehash}{aef77e16eb977096617f4a28bbc1cfef}
+      \strng{authorfullhash}{aef77e16eb977096617f4a28bbc1cfef}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Electroceramics}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Thin Film Deposition Using Spray Pyrolysis}
+      \field{volume}{14}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{103\bibrangedash 111}
+      \range{pages}{9}
+    \endentry
     \entry{2_Goodenough_perspective}{article}{}
       \name{author}{2}{}{%
-        {{hash=f803a68bc39364b640e1baca36098cfc}{Goodenough}{G\bibinitperiod}{John\bibnamedelima B}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=04358337c101dfcdbff29618cb1d500f}{Park}{P\bibinitperiod}{Kyu-Sung}{K\bibinithyphendelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=f803a68bc39364b640e1baca36098cfc}{%
+           family={Goodenough},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima B},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=04358337c101dfcdbff29618cb1d500f}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Kyu-Sung},
+           giveni={K\bibinithyphendelim S\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {eng}%
       }
       \strng{namehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
       \strng{fullhash}{9431765a1b5b6dbaff14fe3ce0d339a7}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \strng{authorbibnamehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \strng{authornamehash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \strng{authorfullhash}{9431765a1b5b6dbaff14fe3ce0d339a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the American Chemical Society}
@@ -190,10 +899,112 @@
       \field{year}{2013}
       \keyw{Heat Transfer -- Methods ; Lithium Batteries -- Research ; Oxidation-reduction Reactions -- Analysis ; Surface Energy -- Measurement;}
     \endentry
+    \entry{2_SEI}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0ca5982f4b8ffabe63d1985766dee677}{%
+           family={Pinson},
+           familyi={P\bibinitperiod},
+           given={MB},
+           giveni={M\bibinitperiod}}}%
+        {{hash=68bff3446ea66c81acecbd14962ae0d6}{%
+           family={Bazant},
+           familyi={B\bibinitperiod},
+           given={Mz},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {ELECTROCHEMICAL SOC INC}%
+      }
+      \strng{namehash}{bb6809338d48a040c5de42085546969d}
+      \strng{fullhash}{bb6809338d48a040c5de42085546969d}
+      \strng{bibnamehash}{bb6809338d48a040c5de42085546969d}
+      \strng{authorbibnamehash}{bb6809338d48a040c5de42085546969d}
+      \strng{authornamehash}{bb6809338d48a040c5de42085546969d}
+      \strng{authorfullhash}{bb6809338d48a040c5de42085546969d}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal Of The Electrochemical Society}
+      \field{number}{2}
+      \field{title}{Theory of SEI Formation in Rechargeable Batteries: Capacity Fade, Accelerated Aging and Lifetime Prediction}
+      \field{volume}{160}
+      \field{year}{2013}
+      \field{pages}{A243\bibrangedash A250}
+      \range{pages}{-1}
+    \endentry
+    \entry{SEM_structure}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fd42b9725572f02918f50241230fec38}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Joseph\bibnamedelima I},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{fd42b9725572f02918f50241230fec38}
+      \strng{fullhash}{fd42b9725572f02918f50241230fec38}
+      \strng{bibnamehash}{fd42b9725572f02918f50241230fec38}
+      \strng{authorbibnamehash}{fd42b9725572f02918f50241230fec38}
+      \strng{authornamehash}{fd42b9725572f02918f50241230fec38}
+      \strng{authorfullhash}{fd42b9725572f02918f50241230fec38}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed. 1992.}
+      \field{isbn}{1-4939-6676-6}
+      \field{title}{Scanning Electron Microscopy and X-Ray Microanalysis}
+      \field{year}{2018}
+    \endentry
+    \entry{SEM_droplet}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=1d9fcc2020644ca034164447db352fef}{%
+           family={Leng},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {Wiley‐VCH Verlag GmbH \& Co. KGaA}%
+      }
+      \strng{namehash}{1d9fcc2020644ca034164447db352fef}
+      \strng{fullhash}{1d9fcc2020644ca034164447db352fef}
+      \strng{bibnamehash}{1d9fcc2020644ca034164447db352fef}
+      \strng{authorbibnamehash}{1d9fcc2020644ca034164447db352fef}
+      \strng{authornamehash}{1d9fcc2020644ca034164447db352fef}
+      \strng{authorfullhash}{1d9fcc2020644ca034164447db352fef}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Materials Characterization}
+      \field{isbn}{9783527334636}
+      \field{title}{Scanning Electron Microscopy}
+      \field{year}{2013}
+      \field{pages}{127\bibrangedash 161}
+      \range{pages}{35}
+    \endentry
     \entry{2_XRD}{book}{}
       \name{author}{2}{}{%
-        {{hash=5f29740f2ef6494bf4aca05218f20b78}{Als-Nielsen}{A\bibinithyphendelim N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=3c4267fefe1c83e11678096f707bc385}{McMorrow}{M\bibinitperiod}{D}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=5f29740f2ef6494bf4aca05218f20b78}{%
+           family={Als-Nielsen},
+           familyi={A\bibinithyphendelim N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3c4267fefe1c83e11678096f707bc385}{%
+           family={McMorrow},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {eng}%
@@ -206,8 +1017,12 @@
       }
       \strng{namehash}{d5c1dbb92ca075541d98ea39688d5a63}
       \strng{fullhash}{d5c1dbb92ca075541d98ea39688d5a63}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \strng{authorbibnamehash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \strng{authornamehash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \strng{authorfullhash}{d5c1dbb92ca075541d98ea39688d5a63}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd ed.}
@@ -217,24 +1032,360 @@
     \endentry
     \entry{Scotman}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=24b91b9136e5e9d2349da4fc381af420}{Scotman}{S\bibinitperiod}{Jonas}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=24b91b9136e5e9d2349da4fc381af420}{%
+           family={Scotman},
+           familyi={S\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
       }
       \list{institution}{1}{%
         {UiO}%
       }
       \strng{namehash}{24b91b9136e5e9d2349da4fc381af420}
       \strng{fullhash}{24b91b9136e5e9d2349da4fc381af420}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \strng{bibnamehash}{24b91b9136e5e9d2349da4fc381af420}
+      \strng{authorbibnamehash}{24b91b9136e5e9d2349da4fc381af420}
+      \strng{authornamehash}{24b91b9136e5e9d2349da4fc381af420}
+      \strng{authorfullhash}{24b91b9136e5e9d2349da4fc381af420}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Synchrotron Based Operando Methods for Characterization of Non-Aqueous Rechargeable Battery Electrode Materials}
       \field{type}{phdthesis}
       \field{year}{2017}
     \endentry
-  \endsortlist
-  \missing{bibid}
-  \missing{2_CV}
+    \entry{2_CV}{article}{}
+      \name{author}{6}{}{%
+        {{hash=354831287eacb8ef24bfee2530eb538b}{%
+           family={Elgrishi},
+           familyi={E\bibinitperiod},
+           given={Noémie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ea39a051bda895a4a157e3c73d1c3980}{%
+           family={Rountree},
+           familyi={R\bibinitperiod},
+           given={Kelley\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=99fb05815fcb038a4fa94b1cd0fda05f}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={Brian\bibnamedelima D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9d7d44da680504feda82fc658fcb7f25}{%
+           family={Rountree},
+           familyi={R\bibinitperiod},
+           given={Eric\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=557bb0ba97a5dab267e673e0502a1ac1}{%
+           family={Eisenhart},
+           familyi={E\bibinitperiod},
+           given={Thomas\bibnamedelima T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c940a456aa1f036070f921978d717e6a}{%
+           family={Dempsey},
+           familyi={D\bibinitperiod},
+           given={Jillian\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{2}{%
+        {Division of Chemical Education, Inc}%
+        {ACS Publications Division of the American Chemical Society.}%
+      }
+      \strng{namehash}{1f947ba4420471f72d707cff5b53d70d}
+      \strng{fullhash}{0f23c2c3bd6404fc95103eef872cb269}
+      \strng{bibnamehash}{0f23c2c3bd6404fc95103eef872cb269}
+      \strng{authorbibnamehash}{0f23c2c3bd6404fc95103eef872cb269}
+      \strng{authornamehash}{1f947ba4420471f72d707cff5b53d70d}
+      \strng{authorfullhash}{0f23c2c3bd6404fc95103eef872cb269}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Chemical Education}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{A Practical Beginner's Guide to Cyclic Voltammetry}
+      \field{volume}{95}
+      \field{year}{2018}
+      \field{pages}{194\bibrangedash 206}
+      \range{pages}{13}
+      \keyw{Chemistry; Measurement; Data Collection; Data Interpretation; Inorganic Chemistry; Equations (Mathematics)}
+    \endentry
+    \entry{CV_im}{incollection}{}
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Inorganic Electrochemistry}
+      \field{isbn}{978-0-85404-661-4}
+      \field{title}{Voltammetric techniques}
+      \field{year}{2003}
+      \field{pages}{49\bibrangedash 136}
+      \range{pages}{88}
+    \endentry
+    \entry{kvamme}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=36d9d4b9c828bc14b11702bc0607c8c7}{%
+           family={Kvamme},
+           familyi={K\bibinitperiod},
+           given={Kristian\bibnamedelima Breivik},
+           giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UiO}%
+      }
+      \strng{namehash}{36d9d4b9c828bc14b11702bc0607c8c7}
+      \strng{fullhash}{36d9d4b9c828bc14b11702bc0607c8c7}
+      \strng{bibnamehash}{36d9d4b9c828bc14b11702bc0607c8c7}
+      \strng{authorbibnamehash}{36d9d4b9c828bc14b11702bc0607c8c7}
+      \strng{authornamehash}{36d9d4b9c828bc14b11702bc0607c8c7}
+      \strng{authorfullhash}{36d9d4b9c828bc14b11702bc0607c8c7}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Phosphites in Atomic Layer Deposition: Synthesis and Characterisation Using Unconventional Phosphorous Precursors}
+      \field{year}{2016}
+      \field{pages}{2\bibrangedash 28}
+      \range{pages}{27}
+    \endentry
+    \entry{GC}{article}{}
+      \name{author}{6}{}{%
+        {{hash=9009522ba143646b62aceb12589e38e3}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Hao-Hsun},
+           giveni={H\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=63021a64e762d44d269303b791243b97}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Chun-Chih},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=a60e9e578ff10708f8117e44369a8d5a}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Hung-Chun},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=8dd92e88519066637b3fa121cbce52a2}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Mo-Hua},
+           giveni={M\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=9863723f83b6a25761846e8a52983ead}{%
+           family={Sheu},
+           familyi={S\bibinitperiod},
+           given={Hwo-Shuenn},
+           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=ca1a990b8b5bb68817af9a1c8f5c7a9a}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Nae-Lih},
+           giveni={N\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a3731ae8125ef77bffe8516f9ee2704}
+      \strng{fullhash}{89af06e02fdc90ccf8de497fc0adffbd}
+      \strng{bibnamehash}{89af06e02fdc90ccf8de497fc0adffbd}
+      \strng{authorbibnamehash}{89af06e02fdc90ccf8de497fc0adffbd}
+      \strng{authornamehash}{5a3731ae8125ef77bffe8516f9ee2704}
+      \strng{authorfullhash}{89af06e02fdc90ccf8de497fc0adffbd}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electrochemistry Communications}
+      \field{number}{2}
+      \field{title}{Study on dynamics of structural transformation during charge/discharge of LiFePO4 cathode}
+      \field{volume}{10}
+      \field{year}{2008}
+      \field{pages}{335\bibrangedash 339}
+      \range{pages}{5}
+    \endentry
+    \entry{DecompMn}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2d11fd1e73095b075150ec924e717606}{%
+           family={Gallagher},
+           familyi={G\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9d0c73e5e4f42d40f682393cb360bb4e}{%
+           family={Schrey},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4d3a6bc9ded125a4584de7b20b6fe8b9}{%
+           family={Prescott},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bfcfaf0ff91c0f22739adced3ffeb64}
+      \strng{fullhash}{8bfcfaf0ff91c0f22739adced3ffeb64}
+      \strng{bibnamehash}{8bfcfaf0ff91c0f22739adced3ffeb64}
+      \strng{authorbibnamehash}{8bfcfaf0ff91c0f22739adced3ffeb64}
+      \strng{authornamehash}{8bfcfaf0ff91c0f22739adced3ffeb64}
+      \strng{authorfullhash}{8bfcfaf0ff91c0f22739adced3ffeb64}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Thermochimica Acta}
+      \field{number}{5}
+      \field{title}{The thermal decomposition of aqueous manganese (II) nitrate solution}
+      \field{type}{Journal Article}
+      \field{volume}{2}
+      \field{year}{1971}
+      \field{pages}{405\bibrangedash 412}
+      \range{pages}{8}
+    \endentry
+    \entry{thermal_li}{article}{}
+      \name{author}{6}{}{%
+        {{hash=3893c152c6167cb492583bc2073641f0}{%
+           family={Ruiz},
+           familyi={R\bibinitperiod},
+           given={Maria\bibnamedelima Lucia},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=bf4ddd68404b1d2ca3c9ae6d0adee847}{%
+           family={Lick},
+           familyi={L\bibinitperiod},
+           given={Ileana\bibnamedelima Daniela},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=43a15c865f33b6edd8bc07a699ccd8d8}{%
+           family={Ponzi},
+           familyi={P\bibinitperiod},
+           given={Marta\bibnamedelima Isabel},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=8dc0b15d03f199efc2397e1a54e9d79a}{%
+           family={Castellón},
+           familyi={C\bibinitperiod},
+           given={Enrique\bibnamedelima Rodríguez},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=3e9f2bcd9e109e985c54ec8dc8bd6a89}{%
+           family={Jiménez-López},
+           familyi={J\bibinithyphendelim L\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=49bfa4cb6fc53678f2f5570b5e7e9de0}{%
+           family={Ponzi},
+           familyi={P\bibinitperiod},
+           given={Esther\bibnamedelima Natalia},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{59d036b5ce0ffe3d0d8f8feca9c5ca5e}
+      \strng{fullhash}{e4f4e15410d3012f554352280f3ea011}
+      \strng{bibnamehash}{e4f4e15410d3012f554352280f3ea011}
+      \strng{authorbibnamehash}{e4f4e15410d3012f554352280f3ea011}
+      \strng{authornamehash}{59d036b5ce0ffe3d0d8f8feca9c5ca5e}
+      \strng{authorfullhash}{e4f4e15410d3012f554352280f3ea011}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Thermochimica Acta}
+      \field{number}{1}
+      \field{title}{Thermal decomposition of supported lithium nitrate catalysts}
+      \field{volume}{499}
+      \field{year}{2010}
+      \field{pages}{21\bibrangedash 26}
+      \range{pages}{6}
+    \endentry
+    \entry{DecompNi}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b6be70331ea56269c5c248f5c5c9f95a}{%
+           family={Brockner},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5dc9db63c543677a23b8de485108559f}{%
+           family={Ehrhardt},
+           familyi={E\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6c40114b49de60a86b5fc8e2660f7192}{%
+           family={Gjikaj},
+           familyi={G\bibinitperiod},
+           given={Mimoza},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d206c3cf9e133311be0bad603a127998}
+      \strng{fullhash}{d206c3cf9e133311be0bad603a127998}
+      \strng{bibnamehash}{d206c3cf9e133311be0bad603a127998}
+      \strng{authorbibnamehash}{d206c3cf9e133311be0bad603a127998}
+      \strng{authornamehash}{d206c3cf9e133311be0bad603a127998}
+      \strng{authorfullhash}{d206c3cf9e133311be0bad603a127998}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Thermochimica Acta}
+      \field{number}{1}
+      \field{title}{Thermal decomposition of nickel nitrate hexahydrate, \ce{Ni(NO3)2.6H2O}, in comparison to \ce{Co(NO3)2.6H2O} and \ce{Ca(NO3)2.4H2O}}
+      \field{type}{Journal Article}
+      \field{volume}{456}
+      \field{year}{2007}
+      \field{pages}{64\bibrangedash 68}
+      \range{pages}{5}
+    \endentry
+    \entry{nano_LMO}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f3d32915ff548d4b55bb78cee22be006}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuhang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=98b66fc175ee43e1829b7a46769bab3e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yehua},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=240104ab149c152a7caaaf779d88e068}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Dingsi},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a83c3d4c9dcfc1f63eeb587bfcef9037}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=df58f5acc21bce2ddeb5d524bffbc7a1}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yongyao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=808c282e6549333edfc6684a97670e0f}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Gengfeng},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{dfce91d16216e684578b9dde3bfe8cd3}
+      \strng{fullhash}{6346a89039361798314fa81366fec6db}
+      \strng{bibnamehash}{6346a89039361798314fa81366fec6db}
+      \strng{authorbibnamehash}{6346a89039361798314fa81366fec6db}
+      \strng{authornamehash}{dfce91d16216e684578b9dde3bfe8cd3}
+      \strng{authorfullhash}{6346a89039361798314fa81366fec6db}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nano Letters}
+      \field{number}{2}
+      \field{title}{All-Nanowire Based Li-Ion Full Cells Using Homologous \ce{Mn2O3} and \ce{LiMn2O4}}
+      \field{volume}{14}
+      \field{year}{2014}
+      \field{pages}{1080\bibrangedash 1084}
+      \range{pages}{5}
+    \endentry
+  \enddatalist
 \endrefsection
 \endinput
 
